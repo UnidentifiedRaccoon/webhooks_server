@@ -18,4 +18,4 @@ docker container rm strapi
 npm run production
 
 # Run a Docker container for the Strapi application in detached mode
-docker run --detach -p 1337:1337 --name strapi strapi
+docker run --detach -p 1337:1337 --name strapi mystrapiapp
