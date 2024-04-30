@@ -4,7 +4,7 @@
 git pull
 
 # Stop the existing Docker container named webhooks_server_container
-docker container stop webhooks_server_container && docker container rm webhooks_server_container
+docker container stop webhooks_server_container
 
 docker rmi webhooks_server
 
