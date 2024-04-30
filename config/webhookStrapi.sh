@@ -5,14 +5,10 @@ cd ../RSL-content || return 1
 # Pull the latest changes from the Git repository
 git pull
 
-# Stop the existing Docker container named strapi
-docker container stop strapi
+# Stop and Remove the existing Docker container named strapi
+docker container stop strapi && docker container rm strapi
 
-# Wait for a moment to ensure that Docker has stopped the container
-sleep 5
-
-# Remove the existing Docker container named strapi
-docker container rm strapi
+docker rmi mystrapiapp
 
 # Run the NPM production script
 npm run production

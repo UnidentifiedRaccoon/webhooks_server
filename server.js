@@ -1,6 +1,7 @@
 // Import the express library
 const express = require('express');
 const {webhookStrapi} = require("./controllers/webhookStrapi");
+const {webhookWebservice} = require("./controllers/webhookWebservice");
 
 // Create an express application
 const app = express();
@@ -22,6 +23,17 @@ app.post('/strapi_webhook', (req, res) => {
     webhookStrapi()
     res.send('<h1>strapi_webhook - ОК</h1>');
 });
+
+app.get('/webservice_webhook', (req, res) => {
+    webhookWebservice()
+    res.send('<h1>webservice_webhook - ОК</h1>');
+});
+
+app.post('/webservice_webhook', (req, res) => {
+    webhookWebservice()
+    res.send('<h1>webservice_webhook - ОК</h1>');
+});
+
 
 // Start the server on the specified port
 app.listen(PORT, () => {
