@@ -3,10 +3,4 @@
 # Pull the latest changes from the Git repository
 git pull
 
-# Stop the existing Docker container named webhooks_server_container
-(docker container stop webhooks_server_container && docker container rm webhooks_server_container) || echo "No resource found to remove"
-
-docker rmi webhooks_server || echo "No resource found to remove"
-
-# Run a Docker container for the Webhooks_server application in detached mode
-docker build -t webhooks_server:latest && docker run --detach -p 3000:3000 --name webhooks_server_container webhooks_server:latest
+nohup node server.js &
