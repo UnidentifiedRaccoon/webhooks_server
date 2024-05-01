@@ -6,9 +6,9 @@ cd ../RSL-content || return 1
 git pull
 
 # Stop and Remove the existing Docker container named strapi
-docker container stop strapi && docker container rm strapi
+(docker container stop strapi && docker container rm strapi) || echo "No resource found to remove"
 
-docker rmi mystrapiapp
+docker rmi mystrapiapp || echo "No resource found to remove"
 
 # Run the NPM production script
 npm run production
