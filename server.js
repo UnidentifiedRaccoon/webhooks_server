@@ -11,25 +11,30 @@ const PORT = 3000;
 
 // Create a route handler for GET requests to the root URL '/'
 app.get('/healthcheck', (req, res) => {
+    console.log('/healthcheck')
     res.send('<h1>ОК</h1>');
 });
 
 app.get('/strapi_webhook', (req, res) => {
+    console.log('/strapi_webhook')
     webhookStrapi()
     res.send('<h1>strapi_webhook - ОК</h1>');
 });
 
 app.post('/strapi_webhook', (req, res) => {
+    console.log('/strapi_webhook')
     webhookStrapi()
     res.send('<h1>strapi_webhook - ОК</h1>');
 });
 
 app.get('/webservice_webhook', (req, res) => {
+    console.log('/webservice_webhook')
     webhookWebservice()
     res.send('<h1>webservice_webhook - ОК</h1>');
 });
 
 app.post('/webservice_webhook', (req, res) => {
+    console.log('/webservice_webhook')
     webhookWebservice()
     res.send('<h1>webservice_webhook - ОК</h1>');
 });
