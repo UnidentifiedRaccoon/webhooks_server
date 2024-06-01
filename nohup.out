@@ -1,0 +1,863 @@
+Server is running on http://localhost:3000
+/healthcheck
+/strapi_webhook
+exec error: Error: Command failed: ./webhookStrapi.sh
+/bin/sh: ./webhookStrapi.sh: No such file or directory
+
+/strapi_webhook
+exec error: Error: Command failed: ./webhookStrapi.sh
+/bin/sh: ./webhookStrapi.sh: No such file or directory
+
+Server is running on http://localhost:3000
+/webservice_webhook
+exec error: Error: Command failed: ./config/webhookWebservice.sh
+/bin/sh: ./config/webhookWebservice.sh: No such file or directory
+
+/healthcheck
+/webservice_webhook
+exec error: Error: Command failed: ./config/webhookWebservice.sh
+/bin/sh: ./config/webhookWebservice.sh: No such file or directory
+
+/strapi_webhook
+exec error: Error: Command failed: ./config/webhookStrapi.sh
+/bin/sh: ./config/webhookStrapi.sh: No such file or directory
+
+/strapi_webhook
+exec error: Error: Command failed: ./config/webhookStrapi.sh
+/bin/sh: ./config/webhookStrapi.sh: No such file or directory
+
+Server is running on http://localhost:3000
+/healthcheck
+/healthcheck
+/strapi_webhook
+/strapi_webhook
+stdout: Already up to date.
+No resource found to remove
+No resource found to remove
+
+> content@0.1.0 production
+> docker build --build-arg NODE_ENV=production -t mystrapiapp:latest -f Dockerfile.prod .
+
+8cb4f6790ae4dd107d9359b5743acce5e42d00087d5baf634b06813e39d04fd5
+
+stderr: Error response from daemon: No such container: strapi
+Error response from daemon: No such image: mystrapiapp:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.prod
+#1 transferring dockerfile: 904B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 DONE 1.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 161B done
+#3 DONE 0.0s
+
+#4 [stage-1 1/7] FROM docker.io/library/node:18-alpine@sha256:5069da655539e2e986ce3fd1757f24a41b846958566c89ff4a48874434d73749
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 6.14kB 0.0s done
+#5 DONE 0.0s
+
+#6 [build 9/9] RUN npm run build
+#6 CACHED
+
+#7 [build 6/9] RUN npm config set fetch-retry-maxtimeout 600000 -g && npm install --only=production
+#7 CACHED
+
+#8 [stage-1 3/7] WORKDIR /opt/
+#8 CACHED
+
+#9 [build 8/9] COPY . .
+#9 CACHED
+
+#10 [build 3/9] WORKDIR /opt/
+#10 CACHED
+
+#11 [stage-1 2/7] RUN apk add --no-cache vips-dev
+#11 CACHED
+
+#12 [stage-1 5/7] WORKDIR /opt/app
+#12 CACHED
+
+#13 [stage-1 6/7] COPY --from=build /opt/app ./
+#13 CACHED
+
+#14 [build 4/9] COPY package.json package-lock.json ./
+#14 CACHED
+
+#15 [build 2/9] RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev git > /dev/null 2>&1
+#15 CACHED
+
+#16 [build 7/9] WORKDIR /opt/app
+#16 CACHED
+
+#17 [stage-1 4/7] COPY --from=build /opt/node_modules ./node_modules
+#17 CACHED
+
+#18 [build 5/9] RUN npm install -g node-gyp
+#18 CACHED
+
+#19 [stage-1 7/7] RUN chown -R node:node /opt/app
+#19 CACHED
+
+#20 exporting to image
+#20 exporting layers done
+#20 writing image sha256:e4e99201664796461765369bb78c9586fd2804c38c3d7c83559f6b9d302b1dc9 done
+#20 naming to docker.io/library/mystrapiapp:latest done
+#20 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/3wz69ty6kgjreel92ikj50jpl
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+exec error: Error: Command failed: ./config/webhookStrapi.sh
+Error response from daemon: No such container: strapi
+Error response from daemon: No such image: mystrapiapp:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.prod
+#1 transferring dockerfile: 904B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 DONE 1.4s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 161B done
+#3 DONE 0.0s
+
+#4 [stage-1 1/7] FROM docker.io/library/node:18-alpine@sha256:5069da655539e2e986ce3fd1757f24a41b846958566c89ff4a48874434d73749
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 1.74MB 0.0s done
+#5 DONE 0.0s
+
+#6 [build 2/9] RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev git > /dev/null 2>&1
+#6 CACHED
+
+#7 [build 5/9] RUN npm install -g node-gyp
+#7 CACHED
+
+#8 [build 6/9] RUN npm config set fetch-retry-maxtimeout 600000 -g && npm install --only=production
+#8 CACHED
+
+#9 [build 7/9] WORKDIR /opt/app
+#9 CACHED
+
+#10 [build 3/9] WORKDIR /opt/
+#10 CACHED
+
+#11 [build 4/9] COPY package.json package-lock.json ./
+#11 CACHED
+
+#12 [build 8/9] COPY . .
+#12 DONE 0.1s
+
+#13 [build 9/9] RUN npm run build
+#13 0.319 
+#13 0.319 > content@0.1.0 build
+#13 0.319 > strapi build
+#13 0.319 
+#13 1.501 - Building build context
+#13 1.501 
+#13 1.523 [INFO] Including the following ENV variables as part of the JS bundle:
+#13 1.523     - ADMIN_PATH
+#13 1.523     - STRAPI_ADMIN_BACKEND_URL
+#13 1.523     - STRAPI_TELEMETRY_DISABLED
+#13 1.533 ✔ Building build context (34ms)
+#13 1.533 - Building admin panel
+#13 1.533 
+#13 9.810 ✔ Building admin panel (8277ms)
+#13 DONE 9.9s
+
+#14 [stage-1 5/7] WORKDIR /opt/app
+#14 CACHED
+
+#15 [stage-1 2/7] RUN apk add --no-cache vips-dev
+#15 CACHED
+
+#16 [stage-1 3/7] WORKDIR /opt/
+#16 CACHED
+
+#17 [stage-1 4/7] COPY --from=build /opt/node_modules ./node_modules
+#17 CACHED
+
+#18 [stage-1 6/7] COPY --from=build /opt/app ./
+#18 CACHED
+
+#19 [stage-1 7/7] RUN chown -R node:node /opt/app
+#19 CACHED
+
+#20 exporting to image
+#20 exporting layers done
+#20 writing image sha256:e4e99201664796461765369bb78c9586fd2804c38c3d7c83559f6b9d302b1dc9
+#20 writing image sha256:e4e99201664796461765369bb78c9586fd2804c38c3d7c83559f6b9d302b1dc9 done
+#20 naming to docker.io/library/mystrapiapp:latest done
+#20 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/txlgsdyz8yebepwybjf81xx1l
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+docker: Error response from daemon: Conflict. The container name "/strapi" is already in use by container "8cb4f6790ae4dd107d9359b5743acce5e42d00087d5baf634b06813e39d04fd5". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+
+/webservice_webhook
+/webservice_webhook
+exec error: Error: Command failed: ./config/webhookWebservice.sh
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
+Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jdk-jammy
+Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jre-jammy
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.85kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.0s
+
+#3 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#3 DONE 0.0s
+
+#4 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#4 CACHED
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 1.27kB done
+#6 DONE 0.0s
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 0.122 + dpkg --print-architecture
+#7 0.124 + ARCH=arm64
+#7 0.124 + ESUM=7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31
+#7 0.124 + BINARY_URL=https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.124 + wget --progress=dot:giga -O /tmp/openjdk.tar.gz https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.140 --2024-06-01 10:48:25--  https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.143 Resolving github.com (github.com)... 140.82.121.3
+#7 0.156 Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+#7 0.300 HTTP request sent, awaiting response... 302 Found
+#7 0.498 Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/b13dcd62-c046-46f3-b052-60c42a243db3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240601T104825Z&X-Amz-Expires=300&X-Amz-Signature=20919d2a6a7ab0da4fbbb392b00f14ae845ff7d1dbba988dda7d796c95d4bd5f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz&response-content-type=application%2Foctet-stream [following]
+#7 0.498 --2024-06-01 10:48:25--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/b13dcd62-c046-46f3-b052-60c42a243db3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240601T104825Z&X-Amz-Expires=300&X-Amz-Signature=20919d2a6a7ab0da4fbbb392b00f14ae845ff7d1dbba988dda7d796c95d4bd5f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz&response-content-type=application%2Foctet-stream
+#7 0.498 Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+#7 0.521 Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+#7 0.644 HTTP request sent, awaiting response... 200 OK
+#7 1.076 Length: 205794447 (196M) [application/octet-stream]
+#7 1.076 Saving to: ‘/tmp/openjdk.tar.gz’
+#7 1.331 
+#7 1.331      0K ........ ........ ........ ........ 16% 25.2M 7s
+#7 2.370  32768K ........ ........ ........ ........ 32% 34.0M 5s
+#7 3.309  65536K ........ ........ ........ ........ 48% 25.9M 4s
+#7 4.586  98304K ........ ........ ........ ........ 65% 21.4M 3s
+#7 6.062 131072K ........ ........ ........ ........ 81% 23.0M 1s
+#7 7.456 163840K ........ ........ ........ ........ 97% 23.9M 0s
+#7 8.790 196608K ....                               100% 24.1M=7.9s
+#7 8.931 
+#7 8.931 2024-06-01 10:48:34 (25.0 MB/s) - ‘/tmp/openjdk.tar.gz’ saved [205794447/205794447]
+#7 8.931 
+#7 8.934 + echo 7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31 */tmp/openjdk.tar.gz
+#7 8.934 + sha256sum -c -
+#7 9.575 /tmp/openjdk.tar.gz: OK
+#7 9.575 + mkdir -p /opt/java/openjdk
+#7 9.576 + tar --extract --file /tmp/openjdk.tar.gz --directory /opt/java/openjdk --strip-components 1 --no-same-owner
+#7 11.80 + rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip
+#7 11.81 + find /opt/java/openjdk/lib -name *.so -exec dirname {} ;
+#7 11.81 + sort -u
+#7 11.83 + ldconfig
+#7 11.84 + java -Xshare:dump
+#7 DONE 12.6s
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#8 0.182 Verifying install ...
+#8 0.182 + echo Verifying install ...
+#8 0.182 + echo System.out.println(System.getProperty("file.encoding"))
+#8 0.182 + jshell -s -
+#8 0.247 Jun 01, 2024 10:48:38 AM java.util.prefs.FileSystemPreferences$1 run
+#8 0.247 INFO: Created user preferences directory.
+#8 0.934 + fileEncoding=UTF-8
+#8 0.934 + [ UTF-8 = UTF-8 ]
+#8 0.934 + rm -rf /root/.java
+#8 0.934 + echo javac --version
+#8 0.934 + javac --version
+#8 0.934 javac --version
+#8 0.997 javac 21.0.3
+#8 1.009 + echo java --version
+#8 1.009 + java --version
+#8 1.010 java --version
+#8 1.026 openjdk 21.0.3 2024-04-16 LTS
+#8 1.026 OpenJDK Runtime Environment Temurin-21.0.3+9 (build 21.0.3+9-LTS)
+#8 1.026 OpenJDK 64-Bit Server VM Temurin-21.0.3+9 (build 21.0.3+9-LTS, mixed mode, sharing)
+#8 1.031 + echo Complete.
+#8 1.031 Complete.
+#8 DONE 1.0s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.6s done
+#9 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e
+#9 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e done
+#9 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy 0.0s done
+#9 DONE 0.6s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/7nzxgy0n3m6re2mkrg0lhq02q
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.41kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 82B done
+#6 DONE 0.0s
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 0.103 + dpkg --print-architecture
+#7 0.104 + ARCH=arm64
+#7 0.104 + ESUM=c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238
+#7 0.104 + BINARY_URL=https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.104 + wget --progress=dot:giga -O /tmp/openjdk.tar.gz https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.105 --2024-06-01 10:48:41--  https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.107 Resolving github.com (github.com)... 140.82.121.3
+#7 0.109 Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+#7 0.264 HTTP request sent, awaiting response... 302 Found
+#7 0.490 Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/455ec451-8d39-4745-9a4b-ab4c410aa3e8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240601T104841Z&X-Amz-Expires=300&X-Amz-Signature=1daa90bdcc540bc0a1dd4e5ffd0fdbf7948e7375b2aad35e0ec6ab4f38c11c2f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz&response-content-type=application%2Foctet-stream [following]
+#7 0.490 --2024-06-01 10:48:41--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/455ec451-8d39-4745-9a4b-ab4c410aa3e8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240601T104841Z&X-Amz-Expires=300&X-Amz-Signature=1daa90bdcc540bc0a1dd4e5ffd0fdbf7948e7375b2aad35e0ec6ab4f38c11c2f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz&response-content-type=application%2Foctet-stream
+#7 0.490 Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+#7 0.521 Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+#7 0.657 HTTP request sent, awaiting response... 200 OK
+#7 1.248 Length: 51456362 (49M) [application/octet-stream]
+#7 1.248 Saving to: ‘/tmp/openjdk.tar.gz’
+#7 2.067 
+#7 2.067      0K ........ ........ ........ ........ 65% 7.83M 2s
+#7 5.372  32768K ........ ........ .                100% 30.0M=4.7s
+#7 5.905 
+#7 5.905 2024-06-01 10:48:47 (10.5 MB/s) - ‘/tmp/openjdk.tar.gz’ saved [51456362/51456362]
+#7 5.905 
+#7 5.909 + echo c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238 */tmp/openjdk.tar.gz
+#7 5.910 + sha256sum -c -
+#7 6.075 /tmp/openjdk.tar.gz: OK
+#7 6.075 + mkdir -p /opt/java/openjdk
+#7 6.076 + tar --extract --file /tmp/openjdk.tar.gz --directory /opt/java/openjdk --strip-components 1 --no-same-owner
+#7 7.141 + rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip
+#7 7.147 + find /opt/java/openjdk/lib -name *.so -exec dirname {} ;
+#7 7.148 + sort -u
+#7 7.167 + ldconfig
+#7 7.179 + java -Xshare:dump
+#7 DONE 7.8s
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 0.137 Verifying install ...
+#8 0.137 java --version
+#8 0.137 + echo Verifying install ...
+#8 0.137 + echo java --version
+#8 0.137 + java --version
+#8 0.152 openjdk 21.0.3 2024-04-16 LTS
+#8 0.152 OpenJDK Runtime Environment Temurin-21.0.3+9 (build 21.0.3+9-LTS)
+#8 0.152 OpenJDK 64-Bit Server VM Temurin-21.0.3+9 (build 21.0.3+9-LTS, mixed mode, sharing)
+#8 0.157 + echo Complete.
+#8 0.157 Complete.
+#8 DONE 0.2s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.3s done
+#9 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635
+#9 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635 done
+#9 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#9 DONE 0.3s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/pm31oztnvr8yaycsndkkr05ad
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ db Pulling 
+ app Pulling 
+ bca4290a9639 Already exists 
+ 73755f5e6a3e Pulling fs layer 
+ 3a60b4a71875 Pulling fs layer 
+ ac5976ae9a0f Pulling fs layer 
+ 361be1980cf0 Pulling fs layer 
+ 5f2cc6916eaf Pulling fs layer 
+ 00e4f47ec03c Pulling fs layer 
+ b14fb22ba4ce Pulling fs layer 
+ 0279729c0a37 Pulling fs layer 
+ 5f2cc6916eaf Waiting 
+ 0279729c0a37 Waiting 
+ 00e4f47ec03c Waiting 
+ 361be1980cf0 Waiting 
+ b14fb22ba4ce Waiting 
+ 73755f5e6a3e Downloading [======================>                            ]     566B/1.263kB
+ 73755f5e6a3e Downloading [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Download complete 
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Pull complete 
+ 3a60b4a71875 Downloading [==================================================>]     116B/116B
+ 3a60b4a71875 Verifying Checksum 
+ 3a60b4a71875 Download complete 
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Pull complete 
+ ac5976ae9a0f Downloading [>                                                  ]  532.5kB/88.1MB
+ ac5976ae9a0f Downloading [=>                                                 ]  2.154MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  5.389MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  6.994MB/88.1MB
+ ac5976ae9a0f Downloading [=======>                                           ]  12.37MB/88.1MB
+ ac5976ae9a0f Downloading [========>                                          ]  15.05MB/88.1MB
+ ac5976ae9a0f Downloading [========>                                          ]  15.59MB/88.1MB
+ ac5976ae9a0f Downloading [============>                                      ]  21.47MB/88.1MB
+ 5f2cc6916eaf Downloading [==================================================>]     128B/128B
+ 5f2cc6916eaf Verifying Checksum 
+ 5f2cc6916eaf Download complete 
+ ac5976ae9a0f Downloading [=============>                                     ]  23.07MB/88.1MB
+ ac5976ae9a0f Downloading [================>                                  ]  28.46MB/88.1MB
+ ac5976ae9a0f Downloading [=================>                                 ]  30.59MB/88.1MB
+ 361be1980cf0 Downloading [===>                                               ]     572B/9.021kB
+ 361be1980cf0 Downloading [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Verifying Checksum 
+ 361be1980cf0 Download complete 
+ ac5976ae9a0f Downloading [=================>                                 ]  31.13MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  37.59MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  38.67MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  44.06MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  45.68MB/88.1MB
+ ac5976ae9a0f Downloading [=============================>                     ]   51.6MB/88.1MB
+ ac5976ae9a0f Downloading [==============================>                    ]   54.3MB/88.1MB
+ ac5976ae9a0f Downloading [==================================>                ]  60.21MB/88.1MB
+ ac5976ae9a0f Downloading [===================================>               ]  61.82MB/88.1MB
+ 00e4f47ec03c Download complete 
+ ac5976ae9a0f Downloading [=====================================>             ]  66.13MB/88.1MB
+ b14fb22ba4ce Downloading [=====>                                             ]     570B/5.421kB
+ b14fb22ba4ce Downloading [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Verifying Checksum 
+ b14fb22ba4ce Download complete 
+ ac5976ae9a0f Downloading [=======================================>           ]   69.9MB/88.1MB
+ ac5976ae9a0f Downloading [===========================================>       ]  76.37MB/88.1MB
+ ac5976ae9a0f Downloading [=============================================>     ]  80.15MB/88.1MB
+ ac5976ae9a0f Downloading [==============================================>    ]  81.23MB/88.1MB
+ ac5976ae9a0f Downloading [=================================================> ]  87.17MB/88.1MB
+ ac5976ae9a0f Verifying Checksum 
+ ac5976ae9a0f Download complete 
+ ac5976ae9a0f Extracting [>                                                  ]  557.1kB/88.1MB
+ ac5976ae9a0f Extracting [==>                                                ]  5.014MB/88.1MB
+ ac5976ae9a0f Extracting [=========>                                         ]  17.27MB/88.1MB
+ ac5976ae9a0f Extracting [================>                                  ]  29.52MB/88.1MB
+ ac5976ae9a0f Extracting [=====================>                             ]  38.44MB/88.1MB
+ ac5976ae9a0f Extracting [=========================>                         ]  45.68MB/88.1MB
+ 0279729c0a37 Downloading [==================================================>]     185B/185B
+ 0279729c0a37 Verifying Checksum 
+ 0279729c0a37 Download complete 
+ ac5976ae9a0f Extracting [===============================>                   ]  55.15MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]  58.49MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]   59.6MB/88.1MB
+ ac5976ae9a0f Extracting [====================================>              ]  64.06MB/88.1MB
+ ac5976ae9a0f Extracting [========================================>          ]  70.75MB/88.1MB
+ ac5976ae9a0f Extracting [==========================================>        ]   75.2MB/88.1MB
+ ac5976ae9a0f Extracting [=================================================> ]  86.34MB/88.1MB
+ ac5976ae9a0f Extracting [==================================================>]   88.1MB/88.1MB
+ ac5976ae9a0f Pull complete 
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Pull complete 
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
+ 5f2cc6916eaf Pull complete 
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Pull complete 
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Pull complete 
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Pull complete 
+ db Pulled 
+ app Warning 
+ Network web-service_default  Creating
+ Network web-service_default  Error
+ Container rsl-learning-platform-db  Creating
+Error response from daemon: Conflict. The container name "/rsl-learning-platform-db" is already in use by container "09f2630c2cd2898667d0ffe6ef83734faea7e2a77c041587ee90e21a2b098b80". You have to remove (or rename) that container to be able to reuse that name.
+
+stdout: #0 building with "desktop-linux" instance using docker driver
+
+#1 [app final 1/3] FROM docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy
+#1 DONE 0.0s
+
+#2 [app final 2/3] WORKDIR /opt/app
+#2 DONE 0.0s
+
+#3 [app builder 1/7] FROM docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy
+#3 DONE 0.0s
+
+#4 [app builder 2/7] WORKDIR /opt/app
+#4 DONE 0.0s
+
+#5 [app internal] load build definition from Dockerfile
+#5 transferring dockerfile: 403B done
+#5 DONE 0.0s
+
+#6 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy
+#6 DONE 0.0s
+
+#7 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy
+#7 DONE 0.0s
+
+#8 [app internal] load .dockerignore
+#8 transferring context: 2B done
+#8 DONE 0.0s
+
+#9 [app internal] load build context
+#9 transferring context: 183.99kB 0.0s done
+#9 DONE 0.0s
+
+#10 [app] exporting to image
+#10 exporting layers
+#10 exporting layers 0.1s done
+#10 writing image sha256:05bad1d43dd2d27534e5a7f2164239f00b3e4e3041fa600b6e31712e530c1bbf done
+#10 naming to docker.io/library/rsl-learning-platform:latest done
+#10 DONE 0.1s
+
+stderr: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
+Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jdk-jammy
+Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jre-jammy
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.85kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 1.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 1.27kB done
+#6 DONE 0.0s
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 0.122 + dpkg --print-architecture
+#7 0.124 + ARCH=arm64
+#7 0.124 + ESUM=7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31
+#7 0.124 + BINARY_URL=https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.124 + wget --progress=dot:giga -O /tmp/openjdk.tar.gz https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.140 --2024-06-01 10:48:25--  https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.143 Resolving github.com (github.com)... 140.82.121.3
+#7 0.156 Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+#7 0.300 HTTP request sent, awaiting response... 302 Found
+#7 0.498 Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/b13dcd62-c046-46f3-b052-60c42a243db3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240601T104825Z&X-Amz-Expires=300&X-Amz-Signature=20919d2a6a7ab0da4fbbb392b00f14ae845ff7d1dbba988dda7d796c95d4bd5f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz&response-content-type=application%2Foctet-stream [following]
+#7 0.498 --2024-06-01 10:48:25--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/b13dcd62-c046-46f3-b052-60c42a243db3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240601T104825Z&X-Amz-Expires=300&X-Amz-Signature=20919d2a6a7ab0da4fbbb392b00f14ae845ff7d1dbba988dda7d796c95d4bd5f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz&response-content-type=application%2Foctet-stream
+#7 0.498 Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+#7 0.521 Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+#7 0.644 HTTP request sent, awaiting response... 200 OK
+#7 1.076 Length: 205794447 (196M) [application/octet-stream]
+#7 1.076 Saving to: ‘/tmp/openjdk.tar.gz’
+#7 1.331 
+#7 1.331      0K ........ ........ ........ ........ 16% 25.2M 7s
+#7 2.370  32768K ........ ........ ........ ........ 32% 34.0M 5s
+#7 3.309  65536K ........ ........ ........ ........ 48% 25.9M 4s
+#7 4.586  98304K ........ ........ ........ ........ 65% 21.4M 3s
+#7 6.062 131072K ........ ........ ........ ........ 81% 23.0M 1s
+#7 7.456 163840K ........ ........ ........ ........ 97% 23.9M 0s
+#7 8.790 196608K ....                               100% 24.1M=7.9s
+#7 8.931 
+#7 8.931 2024-06-01 10:48:34 (25.0 MB/s) - ‘/tmp/openjdk.tar.gz’ saved [205794447/205794447]
+#7 8.931 
+#7 8.934 + echo 7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31 */tmp/openjdk.tar.gz
+#7 8.934 + sha256sum -c -
+#7 9.575 /tmp/openjdk.tar.gz: OK
+#7 9.575 + mkdir -p /opt/java/openjdk
+#7 9.576 + tar --extract --file /tmp/openjdk.tar.gz --directory /opt/java/openjdk --strip-components 1 --no-same-owner
+#7 11.80 + rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip
+#7 11.81 + find /opt/java/openjdk/lib -name *.so -exec dirname {} ;
+#7 11.81 + sort -u
+#7 11.83 + ldconfig
+#7 11.84 + java -Xshare:dump
+#7 DONE 12.6s
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#8 0.182 Verifying install ...
+#8 0.182 + echo Verifying install ...
+#8 0.182 + echo System.out.println(System.getProperty("file.encoding"))
+#8 0.182 + jshell -s -
+#8 0.247 Jun 01, 2024 10:48:38 AM java.util.prefs.FileSystemPreferences$1 run
+#8 0.247 INFO: Created user preferences directory.
+#8 0.934 + fileEncoding=UTF-8
+#8 0.934 + [ UTF-8 = UTF-8 ]
+#8 0.934 + rm -rf /root/.java
+#8 0.934 + echo javac --version
+#8 0.934 + javac --version
+#8 0.934 javac --version
+#8 0.997 javac 21.0.3
+#8 1.009 + echo java --version
+#8 1.009 + java --version
+#8 1.010 java --version
+#8 1.026 openjdk 21.0.3 2024-04-16 LTS
+#8 1.026 OpenJDK Runtime Environment Temurin-21.0.3+9 (build 21.0.3+9-LTS)
+#8 1.026 OpenJDK 64-Bit Server VM Temurin-21.0.3+9 (build 21.0.3+9-LTS, mixed mode, sharing)
+#8 1.031 + echo Complete.
+#8 1.031 Complete.
+#8 DONE 1.0s
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.6s done
+#10 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e
+#10 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy 0.0s done
+#10 DONE 0.6s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/xejvs0dgfi0kfwq4xtbtb6k8t
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.41kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 82B done
+#6 DONE 0.0s
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 0.103 + dpkg --print-architecture
+#7 0.104 + ARCH=arm64
+#7 0.104 + ESUM=c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238
+#7 0.104 + BINARY_URL=https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.104 + wget --progress=dot:giga -O /tmp/openjdk.tar.gz https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.105 --2024-06-01 10:48:41--  https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz
+#7 0.107 Resolving github.com (github.com)... 140.82.121.3
+#7 0.109 Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+#7 0.264 HTTP request sent, awaiting response... 302 Found
+#7 0.490 Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/455ec451-8d39-4745-9a4b-ab4c410aa3e8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240601T104841Z&X-Amz-Expires=300&X-Amz-Signature=1daa90bdcc540bc0a1dd4e5ffd0fdbf7948e7375b2aad35e0ec6ab4f38c11c2f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz&response-content-type=application%2Foctet-stream [following]
+#7 0.490 --2024-06-01 10:48:41--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/455ec451-8d39-4745-9a4b-ab4c410aa3e8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240601T104841Z&X-Amz-Expires=300&X-Amz-Signature=1daa90bdcc540bc0a1dd4e5ffd0fdbf7948e7375b2aad35e0ec6ab4f38c11c2f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz&response-content-type=application%2Foctet-stream
+#7 0.490 Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+#7 0.521 Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+#7 0.657 HTTP request sent, awaiting response... 200 OK
+#7 1.248 Length: 51456362 (49M) [application/octet-stream]
+#7 1.248 Saving to: ‘/tmp/openjdk.tar.gz’
+#7 2.067 
+#7 2.067      0K ........ ........ ........ ........ 65% 7.83M 2s
+#7 5.372  32768K ........ ........ .                100% 30.0M=4.7s
+#7 5.905 
+#7 5.905 2024-06-01 10:48:47 (10.5 MB/s) - ‘/tmp/openjdk.tar.gz’ saved [51456362/51456362]
+#7 5.905 
+#7 5.909 + echo c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238 */tmp/openjdk.tar.gz
+#7 5.910 + sha256sum -c -
+#7 6.075 /tmp/openjdk.tar.gz: OK
+#7 6.075 + mkdir -p /opt/java/openjdk
+#7 6.076 + tar --extract --file /tmp/openjdk.tar.gz --directory /opt/java/openjdk --strip-components 1 --no-same-owner
+#7 7.141 + rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip
+#7 7.147 + find /opt/java/openjdk/lib -name *.so -exec dirname {} ;
+#7 7.148 + sort -u
+#7 7.167 + ldconfig
+#7 7.179 + java -Xshare:dump
+#7 DONE 7.8s
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 0.137 Verifying install ...
+#8 0.137 java --version
+#8 0.137 + echo Verifying install ...
+#8 0.137 + echo java --version
+#8 0.137 + java --version
+#8 0.152 openjdk 21.0.3 2024-04-16 LTS
+#8 0.152 OpenJDK Runtime Environment Temurin-21.0.3+9 (build 21.0.3+9-LTS)
+#8 0.152 OpenJDK 64-Bit Server VM Temurin-21.0.3+9 (build 21.0.3+9-LTS, mixed mode, sharing)
+#8 0.157 + echo Complete.
+#8 0.157 Complete.
+#8 DONE 0.2s
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 0.3s done
+#10 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635
+#10 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635 done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#10 DONE 0.3s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/ehqa8sbmzpzgsgpyiig3y6hwb
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ app Pulling 
+ db Pulling 
+ bca4290a9639 Already exists 
+ 73755f5e6a3e Pulling fs layer 
+ 3a60b4a71875 Pulling fs layer 
+ ac5976ae9a0f Pulling fs layer 
+ 361be1980cf0 Pulling fs layer 
+ 5f2cc6916eaf Pulling fs layer 
+ 00e4f47ec03c Pulling fs layer 
+ b14fb22ba4ce Pulling fs layer 
+ 0279729c0a37 Pulling fs layer 
+ 361be1980cf0 Waiting 
+ 5f2cc6916eaf Waiting 
+ 00e4f47ec03c Waiting 
+ b14fb22ba4ce Waiting 
+ 0279729c0a37 Waiting 
+ 73755f5e6a3e Downloading [======================>                            ]     566B/1.263kB
+ 73755f5e6a3e Downloading [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Verifying Checksum 
+ 73755f5e6a3e Download complete 
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Pull complete 
+ 3a60b4a71875 Downloading [==================================================>]     116B/116B
+ 3a60b4a71875 Verifying Checksum 
+ 3a60b4a71875 Download complete 
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Pull complete 
+ ac5976ae9a0f Downloading [>                                                  ]  532.5kB/88.1MB
+ ac5976ae9a0f Downloading [=>                                                 ]  2.154MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  5.389MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  6.994MB/88.1MB
+ ac5976ae9a0f Downloading [=======>                                           ]  12.37MB/88.1MB
+ ac5976ae9a0f Downloading [========>                                          ]  15.05MB/88.1MB
+ ac5976ae9a0f Downloading [========>                                          ]  15.59MB/88.1MB
+ ac5976ae9a0f Downloading [============>                                      ]  21.47MB/88.1MB
+ 5f2cc6916eaf Verifying Checksum 
+ 5f2cc6916eaf Download complete 
+ ac5976ae9a0f Downloading [=============>                                     ]  23.07MB/88.1MB
+ ac5976ae9a0f Downloading [================>                                  ]  28.46MB/88.1MB
+ ac5976ae9a0f Downloading [=================>                                 ]  30.59MB/88.1MB
+ 361be1980cf0 Downloading [===>                                               ]     572B/9.021kB
+ 361be1980cf0 Downloading [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Verifying Checksum 
+ 361be1980cf0 Download complete 
+ ac5976ae9a0f Downloading [=================>                                 ]  31.13MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  37.59MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  38.67MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  44.06MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  45.68MB/88.1MB
+ ac5976ae9a0f Downloading [=============================>                     ]   51.6MB/88.1MB
+ ac5976ae9a0f Downloading [==============================>                    ]   54.3MB/88.1MB
+ ac5976ae9a0f Downloading [==================================>                ]  60.21MB/88.1MB
+ ac5976ae9a0f Downloading [===================================>               ]  61.82MB/88.1MB
+ 00e4f47ec03c Download complete 
+ ac5976ae9a0f Downloading [=====================================>             ]  66.13MB/88.1MB
+ b14fb22ba4ce Downloading [=====>                                             ]     570B/5.421kB
+ b14fb22ba4ce Downloading [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Verifying Checksum 
+ b14fb22ba4ce Download complete 
+ ac5976ae9a0f Downloading [=======================================>           ]   69.9MB/88.1MB
+ ac5976ae9a0f Downloading [===========================================>       ]  76.37MB/88.1MB
+ ac5976ae9a0f Downloading [=============================================>     ]  80.15MB/88.1MB
+ ac5976ae9a0f Downloading [==============================================>    ]  81.23MB/88.1MB
+ ac5976ae9a0f Downloading [=================================================> ]  87.17MB/88.1MB
+ ac5976ae9a0f Verifying Checksum 
+ ac5976ae9a0f Download complete 
+ ac5976ae9a0f Extracting [>                                                  ]  557.1kB/88.1MB
+ ac5976ae9a0f Extracting [==>                                                ]  5.014MB/88.1MB
+ ac5976ae9a0f Extracting [=========>                                         ]  17.27MB/88.1MB
+ ac5976ae9a0f Extracting [================>                                  ]  29.52MB/88.1MB
+ ac5976ae9a0f Extracting [=====================>                             ]  38.44MB/88.1MB
+ ac5976ae9a0f Extracting [=========================>                         ]  45.68MB/88.1MB
+ 0279729c0a37 Verifying Checksum 
+ 0279729c0a37 Download complete 
+ ac5976ae9a0f Extracting [===============================>                   ]  55.15MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]  58.49MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]   59.6MB/88.1MB
+ ac5976ae9a0f Extracting [====================================>              ]  64.06MB/88.1MB
+ ac5976ae9a0f Extracting [========================================>          ]  70.75MB/88.1MB
+ ac5976ae9a0f Extracting [==========================================>        ]   75.2MB/88.1MB
+ ac5976ae9a0f Extracting [=================================================> ]  86.34MB/88.1MB
+ ac5976ae9a0f Extracting [==================================================>]   88.1MB/88.1MB
+ ac5976ae9a0f Pull complete 
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Pull complete 
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
+ 5f2cc6916eaf Pull complete 
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Pull complete 
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Pull complete 
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Pull complete 
+ db Pulled 
+ app Warning 
+ Network web-service_default  Creating
+ Network web-service_default  Created
+ Container rsl-learning-platform-db  Creating
+ Container rsl-learning-platform-db  Created
+ Container rsl-learning-platform-app  Creating
+ Container rsl-learning-platform-app  Created
+ Container rsl-learning-platform-db  Starting
+ Container rsl-learning-platform-db  Started
+ Container rsl-learning-platform-app  Starting
+ Container rsl-learning-platform-app  Started
+

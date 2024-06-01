@@ -1,4 +1,4 @@
-const { exec } = require('child_process');
+const {exec} = require('child_process');
 
 // Функция для запуска bash скрипта
 const webhookWebservice = () => {
@@ -12,4 +12,4 @@ const webhookWebservice = () => {
     });
 }
 
-module.exports = { webhookWebservice };
+module.exports = {webhookWebservice};

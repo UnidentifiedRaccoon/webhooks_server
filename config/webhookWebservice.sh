@@ -11,7 +11,7 @@ docker rmi rsl-learning-platform
 docker rmi eclipse-temurin:21.0.2_13-jdk-jammy
 docker rmi eclipse-temurin:21.0.2_13-jre-jammy
 
-cd containers/21/jdk/ubuntu/jammy || return 1
+cd java_images/21/jdk/ubuntu/jammy || return 1
 docker build -t eclipse-temurin:21.0.2_13-jdk-jammy .
 
 cd ../../../jre/ubuntu/jammy || return 1
