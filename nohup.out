@@ -160,19 +160,19 @@ Error response from daemon: No such image: mystrapiapp:latest
 #12 DONE 0.1s
 
 #13 [build 9/9] RUN npm run build
-#13 0.319 
+#13 0.319
 #13 0.319 > content@0.1.0 build
 #13 0.319 > strapi build
-#13 0.319 
+#13 0.319
 #13 1.501 - Building build context
-#13 1.501 
+#13 1.501
 #13 1.523 [INFO] Including the following ENV variables as part of the JS bundle:
 #13 1.523     - ADMIN_PATH
 #13 1.523     - STRAPI_ADMIN_BACKEND_URL
 #13 1.523     - STRAPI_TELEMETRY_DISABLED
 #13 1.533 ✔ Building build context (34ms)
 #13 1.533 - Building admin panel
-#13 1.533 
+#13 1.533
 #13 9.810 ✔ Building admin panel (8277ms)
 #13 DONE 9.9s
 
@@ -261,7 +261,7 @@ Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jre-jammy
 #7 0.644 HTTP request sent, awaiting response... 200 OK
 #7 1.076 Length: 205794447 (196M) [application/octet-stream]
 #7 1.076 Saving to: ‘/tmp/openjdk.tar.gz’
-#7 1.331 
+#7 1.331
 #7 1.331      0K ........ ........ ........ ........ 16% 25.2M 7s
 #7 2.370  32768K ........ ........ ........ ........ 32% 34.0M 5s
 #7 3.309  65536K ........ ........ ........ ........ 48% 25.9M 4s
@@ -269,9 +269,9 @@ Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jre-jammy
 #7 6.062 131072K ........ ........ ........ ........ 81% 23.0M 1s
 #7 7.456 163840K ........ ........ ........ ........ 97% 23.9M 0s
 #7 8.790 196608K ....                               100% 24.1M=7.9s
-#7 8.931 
+#7 8.931
 #7 8.931 2024-06-01 10:48:34 (25.0 MB/s) - ‘/tmp/openjdk.tar.gz’ saved [205794447/205794447]
-#7 8.931 
+#7 8.931
 #7 8.934 + echo 7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31 */tmp/openjdk.tar.gz
 #7 8.934 + sha256sum -c -
 #7 9.575 /tmp/openjdk.tar.gz: OK
@@ -360,12 +360,12 @@ What's Next?
 #7 0.657 HTTP request sent, awaiting response... 200 OK
 #7 1.248 Length: 51456362 (49M) [application/octet-stream]
 #7 1.248 Saving to: ‘/tmp/openjdk.tar.gz’
-#7 2.067 
+#7 2.067
 #7 2.067      0K ........ ........ ........ ........ 65% 7.83M 2s
 #7 5.372  32768K ........ ........ .                100% 30.0M=4.7s
-#7 5.905 
+#7 5.905
 #7 5.905 2024-06-01 10:48:47 (10.5 MB/s) - ‘/tmp/openjdk.tar.gz’ saved [51456362/51456362]
-#7 5.905 
+#7 5.905
 #7 5.909 + echo c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238 */tmp/openjdk.tar.gz
 #7 5.910 + sha256sum -c -
 #7 6.075 /tmp/openjdk.tar.gz: OK
@@ -404,34 +404,34 @@ View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux
 What's Next?
   1. Sign in to your Docker account → docker login
   2. View a summary of image vulnerabilities and recommendations → docker scout quickview
- db Pulling 
- app Pulling 
- bca4290a9639 Already exists 
- 73755f5e6a3e Pulling fs layer 
- 3a60b4a71875 Pulling fs layer 
- ac5976ae9a0f Pulling fs layer 
- 361be1980cf0 Pulling fs layer 
- 5f2cc6916eaf Pulling fs layer 
- 00e4f47ec03c Pulling fs layer 
- b14fb22ba4ce Pulling fs layer 
- 0279729c0a37 Pulling fs layer 
- 5f2cc6916eaf Waiting 
- 0279729c0a37 Waiting 
- 00e4f47ec03c Waiting 
- 361be1980cf0 Waiting 
- b14fb22ba4ce Waiting 
+ db Pulling
+ app Pulling
+ bca4290a9639 Already exists
+ 73755f5e6a3e Pulling fs layer
+ 3a60b4a71875 Pulling fs layer
+ ac5976ae9a0f Pulling fs layer
+ 361be1980cf0 Pulling fs layer
+ 5f2cc6916eaf Pulling fs layer
+ 00e4f47ec03c Pulling fs layer
+ b14fb22ba4ce Pulling fs layer
+ 0279729c0a37 Pulling fs layer
+ 5f2cc6916eaf Waiting
+ 0279729c0a37 Waiting
+ 00e4f47ec03c Waiting
+ 361be1980cf0 Waiting
+ b14fb22ba4ce Waiting
  73755f5e6a3e Downloading [======================>                            ]     566B/1.263kB
  73755f5e6a3e Downloading [==================================================>]  1.263kB/1.263kB
- 73755f5e6a3e Download complete 
+ 73755f5e6a3e Download complete
  73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
  73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
- 73755f5e6a3e Pull complete 
+ 73755f5e6a3e Pull complete
  3a60b4a71875 Downloading [==================================================>]     116B/116B
- 3a60b4a71875 Verifying Checksum 
- 3a60b4a71875 Download complete 
+ 3a60b4a71875 Verifying Checksum
+ 3a60b4a71875 Download complete
  3a60b4a71875 Extracting [==================================================>]     116B/116B
  3a60b4a71875 Extracting [==================================================>]     116B/116B
- 3a60b4a71875 Pull complete 
+ 3a60b4a71875 Pull complete
  ac5976ae9a0f Downloading [>                                                  ]  532.5kB/88.1MB
  ac5976ae9a0f Downloading [=>                                                 ]  2.154MB/88.1MB
  ac5976ae9a0f Downloading [===>                                               ]  5.389MB/88.1MB
@@ -441,15 +441,15 @@ What's Next?
  ac5976ae9a0f Downloading [========>                                          ]  15.59MB/88.1MB
  ac5976ae9a0f Downloading [============>                                      ]  21.47MB/88.1MB
  5f2cc6916eaf Downloading [==================================================>]     128B/128B
- 5f2cc6916eaf Verifying Checksum 
- 5f2cc6916eaf Download complete 
+ 5f2cc6916eaf Verifying Checksum
+ 5f2cc6916eaf Download complete
  ac5976ae9a0f Downloading [=============>                                     ]  23.07MB/88.1MB
  ac5976ae9a0f Downloading [================>                                  ]  28.46MB/88.1MB
  ac5976ae9a0f Downloading [=================>                                 ]  30.59MB/88.1MB
  361be1980cf0 Downloading [===>                                               ]     572B/9.021kB
  361be1980cf0 Downloading [==================================================>]  9.021kB/9.021kB
- 361be1980cf0 Verifying Checksum 
- 361be1980cf0 Download complete 
+ 361be1980cf0 Verifying Checksum
+ 361be1980cf0 Download complete
  ac5976ae9a0f Downloading [=================>                                 ]  31.13MB/88.1MB
  ac5976ae9a0f Downloading [=====================>                             ]  37.59MB/88.1MB
  ac5976ae9a0f Downloading [=====================>                             ]  38.67MB/88.1MB
@@ -459,19 +459,19 @@ What's Next?
  ac5976ae9a0f Downloading [==============================>                    ]   54.3MB/88.1MB
  ac5976ae9a0f Downloading [==================================>                ]  60.21MB/88.1MB
  ac5976ae9a0f Downloading [===================================>               ]  61.82MB/88.1MB
- 00e4f47ec03c Download complete 
+ 00e4f47ec03c Download complete
  ac5976ae9a0f Downloading [=====================================>             ]  66.13MB/88.1MB
  b14fb22ba4ce Downloading [=====>                                             ]     570B/5.421kB
  b14fb22ba4ce Downloading [==================================================>]  5.421kB/5.421kB
- b14fb22ba4ce Verifying Checksum 
- b14fb22ba4ce Download complete 
+ b14fb22ba4ce Verifying Checksum
+ b14fb22ba4ce Download complete
  ac5976ae9a0f Downloading [=======================================>           ]   69.9MB/88.1MB
  ac5976ae9a0f Downloading [===========================================>       ]  76.37MB/88.1MB
  ac5976ae9a0f Downloading [=============================================>     ]  80.15MB/88.1MB
  ac5976ae9a0f Downloading [==============================================>    ]  81.23MB/88.1MB
  ac5976ae9a0f Downloading [=================================================> ]  87.17MB/88.1MB
- ac5976ae9a0f Verifying Checksum 
- ac5976ae9a0f Download complete 
+ ac5976ae9a0f Verifying Checksum
+ ac5976ae9a0f Download complete
  ac5976ae9a0f Extracting [>                                                  ]  557.1kB/88.1MB
  ac5976ae9a0f Extracting [==>                                                ]  5.014MB/88.1MB
  ac5976ae9a0f Extracting [=========>                                         ]  17.27MB/88.1MB
@@ -479,8 +479,8 @@ What's Next?
  ac5976ae9a0f Extracting [=====================>                             ]  38.44MB/88.1MB
  ac5976ae9a0f Extracting [=========================>                         ]  45.68MB/88.1MB
  0279729c0a37 Downloading [==================================================>]     185B/185B
- 0279729c0a37 Verifying Checksum 
- 0279729c0a37 Download complete 
+ 0279729c0a37 Verifying Checksum
+ 0279729c0a37 Download complete
  ac5976ae9a0f Extracting [===============================>                   ]  55.15MB/88.1MB
  ac5976ae9a0f Extracting [=================================>                 ]  58.49MB/88.1MB
  ac5976ae9a0f Extracting [=================================>                 ]   59.6MB/88.1MB
@@ -489,24 +489,24 @@ What's Next?
  ac5976ae9a0f Extracting [==========================================>        ]   75.2MB/88.1MB
  ac5976ae9a0f Extracting [=================================================> ]  86.34MB/88.1MB
  ac5976ae9a0f Extracting [==================================================>]   88.1MB/88.1MB
- ac5976ae9a0f Pull complete 
+ ac5976ae9a0f Pull complete
  361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
  361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
- 361be1980cf0 Pull complete 
+ 361be1980cf0 Pull complete
  5f2cc6916eaf Extracting [==================================================>]     128B/128B
  5f2cc6916eaf Extracting [==================================================>]     128B/128B
- 5f2cc6916eaf Pull complete 
+ 5f2cc6916eaf Pull complete
  00e4f47ec03c Extracting [==================================================>]     169B/169B
  00e4f47ec03c Extracting [==================================================>]     169B/169B
- 00e4f47ec03c Pull complete 
+ 00e4f47ec03c Pull complete
  b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
  b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
- b14fb22ba4ce Pull complete 
+ b14fb22ba4ce Pull complete
  0279729c0a37 Extracting [==================================================>]     185B/185B
  0279729c0a37 Extracting [==================================================>]     185B/185B
- 0279729c0a37 Pull complete 
- db Pulled 
- app Warning 
+ 0279729c0a37 Pull complete
+ db Pulled
+ app Warning
  Network web-service_default  Creating
  Network web-service_default  Error
  Container rsl-learning-platform-db  Creating
@@ -600,7 +600,7 @@ Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jre-jammy
 #7 0.644 HTTP request sent, awaiting response... 200 OK
 #7 1.076 Length: 205794447 (196M) [application/octet-stream]
 #7 1.076 Saving to: ‘/tmp/openjdk.tar.gz’
-#7 1.331 
+#7 1.331
 #7 1.331      0K ........ ........ ........ ........ 16% 25.2M 7s
 #7 2.370  32768K ........ ........ ........ ........ 32% 34.0M 5s
 #7 3.309  65536K ........ ........ ........ ........ 48% 25.9M 4s
@@ -608,9 +608,9 @@ Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jre-jammy
 #7 6.062 131072K ........ ........ ........ ........ 81% 23.0M 1s
 #7 7.456 163840K ........ ........ ........ ........ 97% 23.9M 0s
 #7 8.790 196608K ....                               100% 24.1M=7.9s
-#7 8.931 
+#7 8.931
 #7 8.931 2024-06-01 10:48:34 (25.0 MB/s) - ‘/tmp/openjdk.tar.gz’ saved [205794447/205794447]
-#7 8.931 
+#7 8.931
 #7 8.934 + echo 7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31 */tmp/openjdk.tar.gz
 #7 8.934 + sha256sum -c -
 #7 9.575 /tmp/openjdk.tar.gz: OK
@@ -702,12 +702,12 @@ What's Next?
 #7 0.657 HTTP request sent, awaiting response... 200 OK
 #7 1.248 Length: 51456362 (49M) [application/octet-stream]
 #7 1.248 Saving to: ‘/tmp/openjdk.tar.gz’
-#7 2.067 
+#7 2.067
 #7 2.067      0K ........ ........ ........ ........ 65% 7.83M 2s
 #7 5.372  32768K ........ ........ .                100% 30.0M=4.7s
-#7 5.905 
+#7 5.905
 #7 5.905 2024-06-01 10:48:47 (10.5 MB/s) - ‘/tmp/openjdk.tar.gz’ saved [51456362/51456362]
-#7 5.905 
+#7 5.905
 #7 5.909 + echo c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238 */tmp/openjdk.tar.gz
 #7 5.910 + sha256sum -c -
 #7 6.075 /tmp/openjdk.tar.gz: OK
@@ -749,6 +749,1931 @@ View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux
 What's Next?
   1. Sign in to your Docker account → docker login
   2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ app Pulling
+ db Pulling
+ bca4290a9639 Already exists
+ 73755f5e6a3e Pulling fs layer
+ 3a60b4a71875 Pulling fs layer
+ ac5976ae9a0f Pulling fs layer
+ 361be1980cf0 Pulling fs layer
+ 5f2cc6916eaf Pulling fs layer
+ 00e4f47ec03c Pulling fs layer
+ b14fb22ba4ce Pulling fs layer
+ 0279729c0a37 Pulling fs layer
+ 361be1980cf0 Waiting
+ 5f2cc6916eaf Waiting
+ 00e4f47ec03c Waiting
+ b14fb22ba4ce Waiting
+ 0279729c0a37 Waiting
+ 73755f5e6a3e Downloading [======================>                            ]     566B/1.263kB
+ 73755f5e6a3e Downloading [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Verifying Checksum
+ 73755f5e6a3e Download complete
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Pull complete
+ 3a60b4a71875 Downloading [==================================================>]     116B/116B
+ 3a60b4a71875 Verifying Checksum
+ 3a60b4a71875 Download complete
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Pull complete
+ ac5976ae9a0f Downloading [>                                                  ]  532.5kB/88.1MB
+ ac5976ae9a0f Downloading [=>                                                 ]  2.154MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  5.389MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  6.994MB/88.1MB
+ ac5976ae9a0f Downloading [=======>                                           ]  12.37MB/88.1MB
+ ac5976ae9a0f Downloading [========>                                          ]  15.05MB/88.1MB
+ ac5976ae9a0f Downloading [========>                                          ]  15.59MB/88.1MB
+ ac5976ae9a0f Downloading [============>                                      ]  21.47MB/88.1MB
+ 5f2cc6916eaf Verifying Checksum
+ 5f2cc6916eaf Download complete
+ ac5976ae9a0f Downloading [=============>                                     ]  23.07MB/88.1MB
+ ac5976ae9a0f Downloading [================>                                  ]  28.46MB/88.1MB
+ ac5976ae9a0f Downloading [=================>                                 ]  30.59MB/88.1MB
+ 361be1980cf0 Downloading [===>                                               ]     572B/9.021kB
+ 361be1980cf0 Downloading [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Verifying Checksum
+ 361be1980cf0 Download complete
+ ac5976ae9a0f Downloading [=================>                                 ]  31.13MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  37.59MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  38.67MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  44.06MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  45.68MB/88.1MB
+ ac5976ae9a0f Downloading [=============================>                     ]   51.6MB/88.1MB
+ ac5976ae9a0f Downloading [==============================>                    ]   54.3MB/88.1MB
+ ac5976ae9a0f Downloading [==================================>                ]  60.21MB/88.1MB
+ ac5976ae9a0f Downloading [===================================>               ]  61.82MB/88.1MB
+ 00e4f47ec03c Download complete
+ ac5976ae9a0f Downloading [=====================================>             ]  66.13MB/88.1MB
+ b14fb22ba4ce Downloading [=====>                                             ]     570B/5.421kB
+ b14fb22ba4ce Downloading [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Verifying Checksum
+ b14fb22ba4ce Download complete
+ ac5976ae9a0f Downloading [=======================================>           ]   69.9MB/88.1MB
+ ac5976ae9a0f Downloading [===========================================>       ]  76.37MB/88.1MB
+ ac5976ae9a0f Downloading [=============================================>     ]  80.15MB/88.1MB
+ ac5976ae9a0f Downloading [==============================================>    ]  81.23MB/88.1MB
+ ac5976ae9a0f Downloading [=================================================> ]  87.17MB/88.1MB
+ ac5976ae9a0f Verifying Checksum
+ ac5976ae9a0f Download complete
+ ac5976ae9a0f Extracting [>                                                  ]  557.1kB/88.1MB
+ ac5976ae9a0f Extracting [==>                                                ]  5.014MB/88.1MB
+ ac5976ae9a0f Extracting [=========>                                         ]  17.27MB/88.1MB
+ ac5976ae9a0f Extracting [================>                                  ]  29.52MB/88.1MB
+ ac5976ae9a0f Extracting [=====================>                             ]  38.44MB/88.1MB
+ ac5976ae9a0f Extracting [=========================>                         ]  45.68MB/88.1MB
+ 0279729c0a37 Verifying Checksum
+ 0279729c0a37 Download complete
+ ac5976ae9a0f Extracting [===============================>                   ]  55.15MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]  58.49MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]   59.6MB/88.1MB
+ ac5976ae9a0f Extracting [====================================>              ]  64.06MB/88.1MB
+ ac5976ae9a0f Extracting [========================================>          ]  70.75MB/88.1MB
+ ac5976ae9a0f Extracting [==========================================>        ]   75.2MB/88.1MB
+ ac5976ae9a0f Extracting [=================================================> ]  86.34MB/88.1MB
+ ac5976ae9a0f Extracting [==================================================>]   88.1MB/88.1MB
+ ac5976ae9a0f Pull complete
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Pull complete
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
+ 5f2cc6916eaf Pull complete
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Pull complete
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Pull complete
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Pull complete
+ db Pulled
+ app Warning
+ Network web-service_default  Creating
+ Network web-service_default  Created
+ Container rsl-learning-platform-db  Creating
+ Container rsl-learning-platform-db  Created
+ Container rsl-learning-platform-app  Creating
+ Container rsl-learning-platform-app  Created
+ Container rsl-learning-platform-db  Starting
+ Container rsl-learning-platform-db  Started
+ Container rsl-learning-platform-app  Starting
+ Container rsl-learning-platform-app  Started
+
+Server is running on http://localhost:3010
+/healthcheck
+/webservice_webhook
+stdout: #0 building with "desktop-linux" instance using docker driver
+
+#1 [app internal] load build definition from Dockerfile
+#1 transferring dockerfile: 403B done
+#1 DONE 0.0s
+
+#2 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy
+#2 DONE 0.0s
+
+#3 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy
+#3 DONE 0.0s
+
+#4 [app internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [app builder 1/7] FROM docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy
+#5 DONE 0.0s
+
+#6 [app final 1/3] FROM docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy
+#6 DONE 0.0s
+
+#7 [app internal] load build context
+#7 transferring context: 5.58kB done
+#7 DONE 0.0s
+
+#8 [app builder 6/7] COPY ./src ./src
+#8 CACHED
+
+#9 [app builder 7/7] RUN ./mvnw clean package -DskipTests
+#9 CACHED
+
+#10 [app builder 3/7] COPY .mvn/ .mvn
+#10 CACHED
+
+#11 [app builder 2/7] WORKDIR /opt/app
+#11 CACHED
+
+#12 [app builder 4/7] COPY mvnw pom.xml ./
+#12 CACHED
+
+#13 [app final 2/3] WORKDIR /opt/app
+#13 CACHED
+
+#14 [app builder 5/7] RUN ./mvnw dependency:go-offline
+#14 CACHED
+
+#15 [app final 3/3] COPY --from=builder /opt/app/target/*.jar /opt/app/*.jar
+#15 CACHED
+
+#16 [app] exporting to image
+#16 exporting layers done
+#16 writing image sha256:05bad1d43dd2d27534e5a7f2164239f00b3e4e3041fa600b6e31712e530c1bbf done
+#16 naming to docker.io/library/rsl-learning-platform:latest done
+#16 DONE 0.0s
+
+stderr: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
+Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jdk-jammy
+Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jre-jammy
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.85kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 1.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/stiirymvkpesdk0ajkbc7ekfl
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.41kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635 done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/zjmnp83cb1bc1cd7o7qcfrrem
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ db Pulling
+ app Pulling
+ bca4290a9639 Already exists
+ 73755f5e6a3e Pulling fs layer
+ 3a60b4a71875 Pulling fs layer
+ ac5976ae9a0f Pulling fs layer
+ 361be1980cf0 Pulling fs layer
+ 5f2cc6916eaf Pulling fs layer
+ 00e4f47ec03c Pulling fs layer
+ b14fb22ba4ce Pulling fs layer
+ 0279729c0a37 Pulling fs layer
+ 5f2cc6916eaf Waiting
+ 00e4f47ec03c Waiting
+ b14fb22ba4ce Waiting
+ 0279729c0a37 Waiting
+ 361be1980cf0 Waiting
+ 73755f5e6a3e Downloading [======================>                            ]     572B/1.263kB
+ 73755f5e6a3e Downloading [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Download complete
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Pull complete
+ 3a60b4a71875 Downloading [==================================================>]     116B/116B
+ 3a60b4a71875 Verifying Checksum
+ 3a60b4a71875 Download complete
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Pull complete
+ ac5976ae9a0f Downloading [>                                                  ]  539.9kB/88.1MB
+ ac5976ae9a0f Downloading [>                                                  ]  1.081MB/88.1MB
+ ac5976ae9a0f Downloading [=>                                                 ]   2.69MB/88.1MB
+ ac5976ae9a0f Downloading [==>                                                ]  3.762MB/88.1MB
+ ac5976ae9a0f Downloading [==>                                                ]  4.303MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  5.914MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  6.995MB/88.1MB
+ ac5976ae9a0f Downloading [====>                                              ]  8.608MB/88.1MB
+ 5f2cc6916eaf Downloading [==================================================>]     128B/128B
+ 5f2cc6916eaf Verifying Checksum
+ 5f2cc6916eaf Download complete
+ ac5976ae9a0f Downloading [======>                                            ]  10.76MB/88.1MB
+ ac5976ae9a0f Downloading [=======>                                           ]  12.36MB/88.1MB
+ ac5976ae9a0f Downloading [=======>                                           ]  13.45MB/88.1MB
+ 361be1980cf0 Downloading [===>                                               ]     572B/9.021kB
+ ac5976ae9a0f Downloading [========>                                          ]  14.53MB/88.1MB
+ 361be1980cf0 Downloading [=========================================>         ]  7.417kB/9.021kB
+ 361be1980cf0 Downloading [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Verifying Checksum
+ 361be1980cf0 Download complete
+ ac5976ae9a0f Downloading [=========>                                         ]  16.14MB/88.1MB
+ ac5976ae9a0f Downloading [==========>                                        ]   18.3MB/88.1MB
+ ac5976ae9a0f Downloading [===========>                                       ]  20.46MB/88.1MB
+ 00e4f47ec03c Downloading [==================================================>]     169B/169B
+ 00e4f47ec03c Download complete
+ ac5976ae9a0f Downloading [============>                                      ]  21.54MB/88.1MB
+ ac5976ae9a0f Downloading [=============>                                     ]  23.15MB/88.1MB
+ ac5976ae9a0f Downloading [=============>                                     ]  23.69MB/88.1MB
+ ac5976ae9a0f Downloading [==============>                                    ]  25.84MB/88.1MB
+ b14fb22ba4ce Downloading [=====>                                             ]     570B/5.421kB
+ b14fb22ba4ce Downloading [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Download complete
+ ac5976ae9a0f Downloading [===============>                                   ]  27.97MB/88.1MB
+ ac5976ae9a0f Downloading [================>                                  ]  29.59MB/88.1MB
+ ac5976ae9a0f Downloading [=================>                                 ]   31.2MB/88.1MB
+ ac5976ae9a0f Downloading [==================>                                ]  32.82MB/88.1MB
+ ac5976ae9a0f Downloading [==================>                                ]  33.35MB/88.1MB
+ 0279729c0a37 Downloading [==================================================>]     185B/185B
+ 0279729c0a37 Verifying Checksum
+ 0279729c0a37 Download complete
+ ac5976ae9a0f Downloading [====================>                              ]   35.5MB/88.1MB
+ ac5976ae9a0f Downloading [====================>                              ]  36.04MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]   38.2MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  38.74MB/88.1MB
+ ac5976ae9a0f Downloading [=======================>                           ]  40.89MB/88.1MB
+ ac5976ae9a0f Downloading [========================>                          ]  43.04MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  44.66MB/88.1MB
+ ac5976ae9a0f Downloading [==========================>                        ]  46.26MB/88.1MB
+ ac5976ae9a0f Downloading [===========================>                       ]  48.42MB/88.1MB
+ ac5976ae9a0f Downloading [============================>                      ]  50.57MB/88.1MB
+ ac5976ae9a0f Downloading [=============================>                     ]  52.17MB/88.1MB
+ ac5976ae9a0f Downloading [==============================>                    ]  53.79MB/88.1MB
+ ac5976ae9a0f Downloading [===============================>                   ]  55.94MB/88.1MB
+ ac5976ae9a0f Downloading [================================>                  ]  58.08MB/88.1MB
+ ac5976ae9a0f Downloading [==================================>                ]  60.25MB/88.1MB
+ ac5976ae9a0f Downloading [===================================>               ]  62.41MB/88.1MB
+ ac5976ae9a0f Downloading [====================================>              ]  63.49MB/88.1MB
+ ac5976ae9a0f Downloading [====================================>              ]  65.11MB/88.1MB
+ ac5976ae9a0f Downloading [======================================>            ]  67.27MB/88.1MB
+ ac5976ae9a0f Downloading [=======================================>           ]  68.88MB/88.1MB
+ ac5976ae9a0f Downloading [=======================================>           ]  70.48MB/88.1MB
+ ac5976ae9a0f Downloading [=========================================>         ]  72.63MB/88.1MB
+ ac5976ae9a0f Downloading [=========================================>         ]  73.16MB/88.1MB
+ ac5976ae9a0f Downloading [==========================================>        ]  74.78MB/88.1MB
+ ac5976ae9a0f Downloading [===========================================>       ]  76.94MB/88.1MB
+ ac5976ae9a0f Downloading [============================================>      ]  78.01MB/88.1MB
+ ac5976ae9a0f Downloading [=============================================>     ]  80.17MB/88.1MB
+ ac5976ae9a0f Downloading [==============================================>    ]  81.25MB/88.1MB
+ ac5976ae9a0f Downloading [===============================================>   ]  83.41MB/88.1MB
+ ac5976ae9a0f Downloading [================================================>  ]  85.54MB/88.1MB
+ ac5976ae9a0f Downloading [=================================================> ]  87.16MB/88.1MB
+ ac5976ae9a0f Verifying Checksum
+ ac5976ae9a0f Download complete
+ ac5976ae9a0f Extracting [>                                                  ]  557.1kB/88.1MB
+ ac5976ae9a0f Extracting [=>                                                 ]  3.342MB/88.1MB
+ ac5976ae9a0f Extracting [=======>                                           ]  13.93MB/88.1MB
+ ac5976ae9a0f Extracting [==============>                                    ]  25.62MB/88.1MB
+ ac5976ae9a0f Extracting [====================>                              ]  36.77MB/88.1MB
+ ac5976ae9a0f Extracting [=======================>                           ]  40.67MB/88.1MB
+ ac5976ae9a0f Extracting [===========================>                       ]  47.91MB/88.1MB
+ ac5976ae9a0f Extracting [===============================>                   ]  55.71MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]  58.49MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]   59.6MB/88.1MB
+ ac5976ae9a0f Extracting [===================================>               ]  62.39MB/88.1MB
+ ac5976ae9a0f Extracting [======================================>            ]  67.96MB/88.1MB
+ ac5976ae9a0f Extracting [=========================================>         ]  73.53MB/88.1MB
+ ac5976ae9a0f Extracting [===========================================>       ]  76.32MB/88.1MB
+ ac5976ae9a0f Extracting [=================================================> ]  87.46MB/88.1MB
+ ac5976ae9a0f Extracting [==================================================>]   88.1MB/88.1MB
+ ac5976ae9a0f Pull complete
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Pull complete
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
+ 5f2cc6916eaf Pull complete
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Pull complete
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Pull complete
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Pull complete
+ db Pulled
+ app Warning
+ Network web-service_default  Creating
+ Network web-service_default  Created
+ Container rsl-learning-platform-db  Creating
+ Container rsl-learning-platform-db  Created
+ Container rsl-learning-platform-app  Creating
+ Container rsl-learning-platform-app  Created
+ Container rsl-learning-platform-db  Starting
+ Container rsl-learning-platform-db  Started
+ Container rsl-learning-platform-app  Starting
+ Container rsl-learning-platform-app  Started
+
+/strapi_webhook
+stdout: Already up to date.
+No resource found to remove
+No resource found to remove
+
+> content@0.1.0 production
+> docker build --build-arg NODE_ENV=production -t mystrapiapp:latest -f Dockerfile.prod .
+
+ebd9e17f6ae42e8efc02f61fd34c71fdc01e2f29d01aa3427d8ef105e4a76768
+
+stderr: Error response from daemon: No such container: strapi
+Error response from daemon: No such image: mystrapiapp:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.prod
+#1 transferring dockerfile: 904B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 DONE 1.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 161B done
+#3 DONE 0.0s
+
+#4 [build 1/9] FROM docker.io/library/node:18-alpine@sha256:5069da655539e2e986ce3fd1757f24a41b846958566c89ff4a48874434d73749
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 6.14kB 0.0s done
+#5 DONE 0.0s
+
+#6 [build 5/9] RUN npm install -g node-gyp
+#6 CACHED
+
+#7 [stage-1 4/7] COPY --from=build /opt/node_modules ./node_modules
+#7 CACHED
+
+#8 [build 4/9] COPY package.json package-lock.json ./
+#8 CACHED
+
+#9 [stage-1 5/7] WORKDIR /opt/app
+#9 CACHED
+
+#10 [stage-1 2/7] RUN apk add --no-cache vips-dev
+#10 CACHED
+
+#11 [build 8/9] COPY . .
+#11 CACHED
+
+#12 [build 3/9] WORKDIR /opt/
+#12 CACHED
+
+#13 [build 2/9] RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev git > /dev/null 2>&1
+#13 CACHED
+
+#14 [build 7/9] WORKDIR /opt/app
+#14 CACHED
+
+#15 [stage-1 3/7] WORKDIR /opt/
+#15 CACHED
+
+#16 [build 6/9] RUN npm config set fetch-retry-maxtimeout 600000 -g && npm install --only=production
+#16 CACHED
+
+#17 [stage-1 6/7] COPY --from=build /opt/app ./
+#17 CACHED
+
+#18 [build 9/9] RUN npm run build
+#18 CACHED
+
+#19 [stage-1 7/7] RUN chown -R node:node /opt/app
+#19 CACHED
+
+#20 exporting to image
+#20 exporting layers done
+#20 writing image sha256:e4e99201664796461765369bb78c9586fd2804c38c3d7c83559f6b9d302b1dc9 done
+#20 naming to docker.io/library/mystrapiapp:latest done
+#20 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/uikh5y3xu9eunkcxc0swir106
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+/website_webhook
+stdout: Already up to date.
+strapi
+strapi
+Untagged: mystrapiapp:latest
+Deleted: sha256:e4e99201664796461765369bb78c9586fd2804c38c3d7c83559f6b9d302b1dc9
+
+> content@0.1.0 production
+> docker build --build-arg NODE_ENV=production -t mystrapiapp:latest -f Dockerfile.prod .
+
+06e2e5c6bce7b2fd68e1acc79943664fb8a8da27a0c780eba1e1252355379c93
+
+stderr: #0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.prod
+#1 transferring dockerfile: 904B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 DONE 0.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 161B done
+#3 DONE 0.0s
+
+#4 [build 1/9] FROM docker.io/library/node:18-alpine@sha256:5069da655539e2e986ce3fd1757f24a41b846958566c89ff4a48874434d73749
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 6.14kB 0.0s done
+#5 DONE 0.0s
+
+#6 [stage-1 3/7] WORKDIR /opt/
+#6 CACHED
+
+#7 [build 9/9] RUN npm run build
+#7 CACHED
+
+#8 [build 2/9] RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev git > /dev/null 2>&1
+#8 CACHED
+
+#9 [build 3/9] WORKDIR /opt/
+#9 CACHED
+
+#10 [build 4/9] COPY package.json package-lock.json ./
+#10 CACHED
+
+#11 [build 6/9] RUN npm config set fetch-retry-maxtimeout 600000 -g && npm install --only=production
+#11 CACHED
+
+#12 [stage-1 6/7] COPY --from=build /opt/app ./
+#12 CACHED
+
+#13 [stage-1 4/7] COPY --from=build /opt/node_modules ./node_modules
+#13 CACHED
+
+#14 [stage-1 2/7] RUN apk add --no-cache vips-dev
+#14 CACHED
+
+#15 [build 8/9] COPY . .
+#15 CACHED
+
+#16 [build 7/9] WORKDIR /opt/app
+#16 CACHED
+
+#17 [build 5/9] RUN npm install -g node-gyp
+#17 CACHED
+
+#18 [stage-1 5/7] WORKDIR /opt/app
+#18 CACHED
+
+#19 [stage-1 7/7] RUN chown -R node:node /opt/app
+#19 CACHED
+
+#20 exporting to image
+#20 exporting layers done
+#20 writing image sha256:e4e99201664796461765369bb78c9586fd2804c38c3d7c83559f6b9d302b1dc9 done
+#20 naming to docker.io/library/mystrapiapp:latest done
+#20 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/j5hq1osh3obs6115fctu98y88
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+Server is running on http://localhost:3010
+/healthcheck
+/strapi_webhook
+stdout: Already up to date.
+No resource found to remove
+No resource found to remove
+
+> content@0.1.0 production
+> docker build --build-arg NODE_ENV=production -t mystrapiapp:latest -f Dockerfile.prod .
+
+d746c7a77e170a38bb57c3d85be71b2d4058bd2fead35db119b71ac2219484a3
+
+stderr: Error response from daemon: No such container: strapi
+Error response from daemon: No such image: mystrapiapp:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.prod
+#1 transferring dockerfile: 904B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 DONE 1.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 161B done
+#3 DONE 0.0s
+
+#4 [build 1/9] FROM docker.io/library/node:18-alpine@sha256:5069da655539e2e986ce3fd1757f24a41b846958566c89ff4a48874434d73749
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 6.14kB 0.0s done
+#5 DONE 0.0s
+
+#6 [build 4/9] COPY package.json package-lock.json ./
+#6 CACHED
+
+#7 [stage-1 4/7] COPY --from=build /opt/node_modules ./node_modules
+#7 CACHED
+
+#8 [stage-1 2/7] RUN apk add --no-cache vips-dev
+#8 CACHED
+
+#9 [build 3/9] WORKDIR /opt/
+#9 CACHED
+
+#10 [build 6/9] RUN npm config set fetch-retry-maxtimeout 600000 -g && npm install --only=production
+#10 CACHED
+
+#11 [stage-1 5/7] WORKDIR /opt/app
+#11 CACHED
+
+#12 [stage-1 3/7] WORKDIR /opt/
+#12 CACHED
+
+#13 [stage-1 6/7] COPY --from=build /opt/app ./
+#13 CACHED
+
+#14 [build 2/9] RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev git > /dev/null 2>&1
+#14 CACHED
+
+#15 [build 9/9] RUN npm run build
+#15 CACHED
+
+#16 [build 7/9] WORKDIR /opt/app
+#16 CACHED
+
+#17 [build 5/9] RUN npm install -g node-gyp
+#17 CACHED
+
+#18 [build 8/9] COPY . .
+#18 CACHED
+
+#19 [stage-1 7/7] RUN chown -R node:node /opt/app
+#19 CACHED
+
+#20 exporting to image
+#20 exporting layers done
+#20 writing image sha256:e4e99201664796461765369bb78c9586fd2804c38c3d7c83559f6b9d302b1dc9 done
+#20 naming to docker.io/library/mystrapiapp:latest done
+#20 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/mtp0l6cisk327nj2yl3ny1ntt
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+/website_webhook
+/webservice_webhook
+stdout: No resource found to remove
+No resource found to remove
+de43f1e920e6177f50da169e95b16362b12404f8fa3c3133d33a1253b4048a8a
+
+stderr: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Error response from daemon: No such container: website
+Error response from daemon: No such image: myreactapp:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 587B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:20.13-alpine
+#2 DONE 3.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 94B done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/node:20.13-alpine@sha256:a7b980c958bfe4d84ee9263badd95a40c8bb50ad5afdb87902c187fefaef0e24
+#4 resolve docker.io/library/node:20.13-alpine@sha256:a7b980c958bfe4d84ee9263badd95a40c8bb50ad5afdb87902c187fefaef0e24 done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 21.31kB 0.0s done
+#5 DONE 0.0s
+
+#6 [2/7] WORKDIR /app
+#6 CACHED
+
+#7 [3/7] COPY package*.json ./
+#7 CACHED
+
+#8 [4/7] RUN npm install
+#8 CACHED
+
+#9 [5/7] COPY . .
+#9 DONE 0.0s
+
+#10 [6/7] RUN npm run build
+#10 0.361
+#10 0.361 > rsl@0.0.0 build
+#10 0.361 > tsc && vite build
+#10 0.361
+#10 4.111 vite v5.0.10 building for production...
+#10 4.129 transforming...
+#10 11.82 ✓ 11961 modules transformed.
+#10 12.06 rendering chunks...
+#10 12.07 computing gzip size...
+#10 12.09 dist/index.html                                             0.46 kB │ gzip:   0.30 kB
+#10 12.09 dist/assets/inter-vietnamese-400-normal-p7dDeVZr.woff2      4.74 kB
+#10 12.09 dist/assets/inter-greek-ext-400-normal-iHZa-WCv.woff2       5.42 kB
+#10 12.09 dist/assets/inter-vietnamese-400-normal-yDhnxiy6.woff       6.59 kB
+#10 12.09 dist/assets/inter-cyrillic-400-normal-3-nJGiym.woff2        6.75 kB
+#10 12.09 dist/assets/inter-greek-ext-400-normal-P0a9vVxN.woff        7.36 kB
+#10 12.09 dist/assets/inter-greek-400-normal-0F8q5qMq.woff2           8.41 kB
+#10 12.09 dist/assets/inter-cyrillic-400-normal-Ca0v-Mpr.woff         9.05 kB
+#10 12.09 dist/assets/inter-cyrillic-ext-400-normal-LcnzGR0M.woff2    9.98 kB
+#10 12.09 dist/assets/inter-greek-400-normal-7yDxw0Ox.woff           11.01 kB
+#10 12.09 dist/assets/inter-cyrillic-ext-400-normal-sxuyq987.woff    14.18 kB
+#10 12.09 dist/assets/inter-latin-400-normal-U9R_j0_y.woff2          21.56 kB
+#10 12.09 dist/assets/inter-latin-400-normal-nYvLeTLv.woff           28.98 kB
+#10 12.09 dist/assets/inter-latin-ext-400-normal-91vjqTvm.woff2      29.27 kB
+#10 12.09 dist/assets/inter-latin-ext-400-normal-PLSM5vss.woff       42.11 kB
+#10 12.09 dist/assets/1-pMYDeG97.webp                               132.56 kB
+#10 12.09 dist/assets/4-Cm2bxL5O.webp                               196.61 kB
+#10 12.09 dist/assets/3-gU3zbbcx.webp                               217.25 kB
+#10 12.09 dist/assets/2-LhinJgnr.webp                               329.27 kB
+#10 12.09 dist/assets/index-Twi9C9zP.css                              9.27 kB │ gzip:   2.86 kB
+#10 12.09 dist/assets/index-OB4t6pVC.js                             556.86 kB │ gzip: 176.88 kB
+#10 12.09
+#10 12.09 (!) Some chunks are larger than 500 kB after minification. Consider:
+#10 12.09 - Using dynamic import() to code-split the application
+#10 12.09 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+#10 12.09 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+#10 12.09 ✓ built in 7.98s
+#10 DONE 12.2s
+
+#11 [7/7] RUN npm install -g serve
+#11 7.011
+#11 7.011 added 89 packages in 7s
+#11 7.011
+#11 7.011 24 packages are looking for funding
+#11 7.011   run `npm fund` for details
+#11 DONE 7.2s
+
+#12 exporting to image
+#12 exporting layers 0.1s done
+#12 writing image sha256:b194e422498177f4cf4309f272b7bb56411cf00787ee1d50af0838ca93dca744 done
+#12 naming to docker.io/library/myreactapp done
+#12 DONE 0.1s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/oe3vki77wg6adi4clfidjbll3
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+stdout: #0 building with "desktop-linux" instance using docker driver
+
+#1 [app internal] load build definition from Dockerfile
+#1 transferring dockerfile: 403B done
+#1 DONE 0.0s
+
+#2 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy
+#2 DONE 0.0s
+
+#3 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy
+#3 DONE 0.0s
+
+#4 [app internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [app builder 1/7] FROM docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy
+#5 DONE 0.0s
+
+#6 [app final 1/3] FROM docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy
+#6 DONE 0.0s
+
+#7 [app internal] load build context
+#7 transferring context: 5.58kB done
+#7 DONE 0.0s
+
+#8 [app builder 3/7] COPY .mvn/ .mvn
+#8 CACHED
+
+#9 [app builder 2/7] WORKDIR /opt/app
+#9 CACHED
+
+#10 [app builder 4/7] COPY mvnw pom.xml ./
+#10 CACHED
+
+#11 [app builder 6/7] COPY ./src ./src
+#11 CACHED
+
+#12 [app builder 7/7] RUN ./mvnw clean package -DskipTests
+#12 CACHED
+
+#13 [app builder 5/7] RUN ./mvnw dependency:go-offline
+#13 CACHED
+
+#14 [app final 2/3] WORKDIR /opt/app
+#14 CACHED
+
+#15 [app final 3/3] COPY --from=builder /opt/app/target/*.jar /opt/app/*.jar
+#15 CACHED
+
+#16 [app] exporting to image
+#16 exporting layers done
+#16 writing image sha256:05bad1d43dd2d27534e5a7f2164239f00b3e4e3041fa600b6e31712e530c1bbf done
+#16 naming to docker.io/library/rsl-learning-platform:latest done
+#16 DONE 0.0s
+
+stderr: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
+Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jdk-jammy
+Error response from daemon: No such image: eclipse-temurin:21.0.2_13-jre-jammy
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.85kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 1.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#6 CACHED
+
+#7 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#7 CACHED
+
+#8 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/rw3bxqnleglwyg65ppj8ilker
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.41kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635 done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/iez17gbfeasa7rz4rpakm5rs8
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ app Pulling
+ db Pulling
+ bca4290a9639 Already exists
+ 73755f5e6a3e Pulling fs layer
+ 3a60b4a71875 Pulling fs layer
+ ac5976ae9a0f Pulling fs layer
+ 361be1980cf0 Pulling fs layer
+ 5f2cc6916eaf Pulling fs layer
+ 00e4f47ec03c Pulling fs layer
+ b14fb22ba4ce Pulling fs layer
+ 0279729c0a37 Pulling fs layer
+ 5f2cc6916eaf Waiting
+ 00e4f47ec03c Waiting
+ 361be1980cf0 Waiting
+ b14fb22ba4ce Waiting
+ 0279729c0a37 Waiting
+ 3a60b4a71875 Downloading [==================================================>]     116B/116B
+ 3a60b4a71875 Download complete
+ ac5976ae9a0f Downloading [>                                                  ]    528kB/88.1MB
+ ac5976ae9a0f Downloading [>                                                  ]  1.069MB/88.1MB
+ 73755f5e6a3e Downloading [====================>                              ]     509B/1.263kB
+ ac5976ae9a0f Downloading [=>                                                 ]  2.691MB/88.1MB
+ 73755f5e6a3e Downloading [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Verifying Checksum
+ 73755f5e6a3e Download complete
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
+ 73755f5e6a3e Pull complete
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Extracting [==================================================>]     116B/116B
+ 3a60b4a71875 Pull complete
+ ac5976ae9a0f Downloading [==>                                                ]  3.767MB/88.1MB
+ ac5976ae9a0f Downloading [==>                                                ]  4.836MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  6.446MB/88.1MB
+ 5f2cc6916eaf Downloading [==================================================>]     128B/128B
+ 5f2cc6916eaf Verifying Checksum
+ 5f2cc6916eaf Download complete
+ ac5976ae9a0f Downloading [====>                                              ]  7.524MB/88.1MB
+ ac5976ae9a0f Downloading [=====>                                             ]  9.141MB/88.1MB
+ 00e4f47ec03c Downloading [==================================================>]     169B/169B
+ 00e4f47ec03c Verifying Checksum
+ 00e4f47ec03c Download complete
+ ac5976ae9a0f Downloading [======>                                            ]  10.75MB/88.1MB
+ ac5976ae9a0f Downloading [======>                                            ]  11.83MB/88.1MB
+ ac5976ae9a0f Downloading [=======>                                           ]  12.91MB/88.1MB
+ 361be1980cf0 Downloading [==>                                                ]     505B/9.021kB
+ 361be1980cf0 Downloading [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Verifying Checksum
+ 361be1980cf0 Download complete
+ b14fb22ba4ce Downloading [====>                                              ]     511B/5.421kB
+ b14fb22ba4ce Downloading [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Verifying Checksum
+ b14fb22ba4ce Download complete
+ ac5976ae9a0f Downloading [========>                                          ]  14.54MB/88.1MB
+ ac5976ae9a0f Downloading [=========>                                         ]  16.16MB/88.1MB
+ 0279729c0a37 Downloading [==================================================>]     185B/185B
+ 0279729c0a37 Verifying Checksum
+ 0279729c0a37 Download complete
+ ac5976ae9a0f Downloading [=========>                                         ]  17.23MB/88.1MB
+ ac5976ae9a0f Downloading [==========>                                        ]  18.84MB/88.1MB
+ ac5976ae9a0f Downloading [===========>                                       ]  19.91MB/88.1MB
+ ac5976ae9a0f Downloading [============>                                      ]  21.53MB/88.1MB
+ ac5976ae9a0f Downloading [=============>                                     ]  23.15MB/88.1MB
+ ac5976ae9a0f Downloading [=============>                                     ]  24.23MB/88.1MB
+ ac5976ae9a0f Downloading [==============>                                    ]  25.83MB/88.1MB
+ ac5976ae9a0f Downloading [===============>                                   ]  26.89MB/88.1MB
+ ac5976ae9a0f Downloading [================>                                  ]   28.5MB/88.1MB
+ ac5976ae9a0f Downloading [=================>                                 ]  30.13MB/88.1MB
+ ac5976ae9a0f Downloading [==================>                                ]  31.73MB/88.1MB
+ ac5976ae9a0f Downloading [==================>                                ]   32.8MB/88.1MB
+ ac5976ae9a0f Downloading [===================>                               ]  34.43MB/88.1MB
+ ac5976ae9a0f Downloading [====================>                              ]  36.04MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  37.65MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  38.73MB/88.1MB
+ ac5976ae9a0f Downloading [======================>                            ]  40.32MB/88.1MB
+ ac5976ae9a0f Downloading [=======================>                           ]  41.93MB/88.1MB
+ ac5976ae9a0f Downloading [========================>                          ]  43.55MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  44.62MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]   45.7MB/88.1MB
+ ac5976ae9a0f Downloading [==========================>                        ]  46.77MB/88.1MB
+ ac5976ae9a0f Downloading [===========================>                       ]  47.84MB/88.1MB
+ ac5976ae9a0f Downloading [============================>                      ]  49.99MB/88.1MB
+ ac5976ae9a0f Downloading [============================>                      ]  51.07MB/88.1MB
+ ac5976ae9a0f Downloading [=============================>                     ]  52.67MB/88.1MB
+ ac5976ae9a0f Downloading [==============================>                    ]  53.75MB/88.1MB
+ ac5976ae9a0f Downloading [===============================>                   ]  55.37MB/88.1MB
+ ac5976ae9a0f Downloading [================================>                  ]  56.44MB/88.1MB
+ ac5976ae9a0f Downloading [================================>                  ]  58.05MB/88.1MB
+ ac5976ae9a0f Downloading [=================================>                 ]  59.66MB/88.1MB
+ ac5976ae9a0f Downloading [===================================>               ]   61.8MB/88.1MB
+ ac5976ae9a0f Downloading [===================================>               ]  62.89MB/88.1MB
+ ac5976ae9a0f Downloading [====================================>              ]  64.49MB/88.1MB
+ ac5976ae9a0f Downloading [=====================================>             ]  66.11MB/88.1MB
+ ac5976ae9a0f Downloading [======================================>            ]  67.19MB/88.1MB
+ ac5976ae9a0f Downloading [======================================>            ]  68.28MB/88.1MB
+ ac5976ae9a0f Downloading [=======================================>           ]  69.89MB/88.1MB
+ ac5976ae9a0f Downloading [========================================>          ]  70.97MB/88.1MB
+ ac5976ae9a0f Downloading [========================================>          ]  72.04MB/88.1MB
+ ac5976ae9a0f Downloading [==========================================>        ]   74.2MB/88.1MB
+ ac5976ae9a0f Downloading [===========================================>       ]  75.82MB/88.1MB
+ ac5976ae9a0f Downloading [===========================================>       ]  76.35MB/88.1MB
+ ac5976ae9a0f Downloading [===========================================>       ]  77.43MB/88.1MB
+ ac5976ae9a0f Downloading [=============================================>     ]  79.58MB/88.1MB
+ ac5976ae9a0f Downloading [==============================================>    ]   81.2MB/88.1MB
+ ac5976ae9a0f Downloading [==============================================>    ]  82.27MB/88.1MB
+ ac5976ae9a0f Downloading [===============================================>   ]  83.34MB/88.1MB
+ ac5976ae9a0f Downloading [================================================>  ]  84.95MB/88.1MB
+ ac5976ae9a0f Downloading [================================================>  ]  86.03MB/88.1MB
+ ac5976ae9a0f Downloading [=================================================> ]  87.11MB/88.1MB
+ ac5976ae9a0f Verifying Checksum
+ ac5976ae9a0f Download complete
+ ac5976ae9a0f Extracting [>                                                  ]  557.1kB/88.1MB
+ ac5976ae9a0f Extracting [==>                                                ]  4.456MB/88.1MB
+ ac5976ae9a0f Extracting [=========>                                         ]  16.15MB/88.1MB
+ ac5976ae9a0f Extracting [===============>                                   ]  27.85MB/88.1MB
+ ac5976ae9a0f Extracting [=====================>                             ]  37.32MB/88.1MB
+ ac5976ae9a0f Extracting [=========================>                         ]  44.56MB/88.1MB
+ ac5976ae9a0f Extracting [=============================>                     ]  52.36MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]  58.49MB/88.1MB
+ ac5976ae9a0f Extracting [==================================>                ]  60.72MB/88.1MB
+ ac5976ae9a0f Extracting [=====================================>             ]  65.73MB/88.1MB
+ ac5976ae9a0f Extracting [=========================================>         ]  72.42MB/88.1MB
+ ac5976ae9a0f Extracting [==========================================>        ]  75.76MB/88.1MB
+ ac5976ae9a0f Extracting [=================================================> ]  87.46MB/88.1MB
+ ac5976ae9a0f Extracting [==================================================>]   88.1MB/88.1MB
+ ac5976ae9a0f Pull complete
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
+ 361be1980cf0 Pull complete
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
+ 5f2cc6916eaf Pull complete
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Extracting [==================================================>]     169B/169B
+ 00e4f47ec03c Pull complete
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Extracting [==================================================>]  5.421kB/5.421kB
+ b14fb22ba4ce Pull complete
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Extracting [==================================================>]     185B/185B
+ 0279729c0a37 Pull complete
+ db Pulled
+ app Warning
+ Network web-service_default  Creating
+ Network web-service_default  Created
+ Container rsl-learning-platform-db  Creating
+ Container rsl-learning-platform-db  Created
+ Container rsl-learning-platform-app  Creating
+ Container rsl-learning-platform-app  Created
+ Container rsl-learning-platform-db  Starting
+ Container rsl-learning-platform-db  Started
+ Container rsl-learning-platform-app  Starting
+ Container rsl-learning-platform-app  Started
+
+/webservice_webhook
+exec error: Error: Command failed: ./config/webhookWebservice.sh
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ Container rsl-learning-platform-app  Stopping
+ Container rsl-learning-platform-app  Stopped
+ Container rsl-learning-platform-app  Removing
+ Container rsl-learning-platform-app  Removed
+ Container rsl-learning-platform-db  Stopping
+ Container rsl-learning-platform-db  Stopped
+ Container rsl-learning-platform-db  Removing
+ Container rsl-learning-platform-db  Removed
+ Network web-service_default  Removing
+ Network web-service_default  Removed
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.85kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 1.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/5isndqqd71kbu26l86j4tqvbh
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.41kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635 done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/hxejk7r6rkv6gebqg1p0jlt0o
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ app Pulling
+ app Warning
+failed to solve: process "/bin/sh -c ./mvnw clean package -DskipTests" did not complete successfully: exit code: 1
+
+/webservice_webhook
+exec error: Error: Command failed: ./config/webhookWebservice.sh
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.85kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 1.4s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/pa1p14m1pqbgpnkf9fc725p4z
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.41kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635 done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/igdcc1sk98e1kdeib0vhwk23c
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ app Pulling
+ app Warning
+failed to solve: process "/bin/sh -c ./mvnw clean package -DskipTests" did not complete successfully: exit code: 1
+
+/webservice_webhook
+exec error: Error: Command failed: ./config/webhookWebservice.sh
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.85kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 1.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#6 CACHED
+
+#7 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#7 CACHED
+
+#8 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:7e504aacbb49569b621979dd19858c40baa3cb327fa0d5ecf26a18040f4e815e done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/ojh8aimbtjorm8dt8eqlfxnmw
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.41kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:e6a635f7826fa17c80314dfbd2e7e19c6a0d190d000a1254f3fa43a4d1e7c635 done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/sgzqauwd4u1dc33l1rw4uf1t0
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ app Pulling
+ app Warning
+failed to solve: process "/bin/sh -c ./mvnw clean package -DskipTests" did not complete successfully: exit code: 1
+/webservice_webhook
+/webservice_webhook
+exec error: Error: Command failed: ./config/webhookWebservice.sh
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.80kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 1.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 1.22kB done
+#5 DONE 0.0s
+
+#6 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#6 CACHED
+
+#7 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers 0.0s done
+#10 writing image sha256:add0acaece43af9d6e2865d4d14fb43a443b1ef7b0dbd32bbbcd795a0220d6b5 done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/op1psz8hiuelrb8ggklyo9z0b
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.36kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 1.22kB done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers 0.0s done
+#10 writing image sha256:77f0ec8580bed728c04adf0f695fb78a8755ffa774b9056ef5aaf14cf8b44c4f done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/kbgqt12bccecaijzijye2y9lk
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ app Pulling 
+ app Warning 
+ Network web-service_default  Creating
+ Network web-service_default  Error
+ Container rsl-learning-platform-db  Creating
+Error response from daemon: Conflict. The container name "/rsl-learning-platform-db" is already in use by container "952a5d8009ff72f2b387030abd6dc4e56f11d8106362a95def086eb99d76d31b". You have to remove (or rename) that container to be able to reuse that name.
+./config/webhookWebservice.sh: line 23: -d: command not found
+
+exec error: Error: Command failed: ./config/webhookWebservice.sh
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.80kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 2.7s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 1.22kB done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         binutils         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='7d3ab0e8eba95bd682cfda8041c6cb6fa21e09d0d9131316fd7c96c78969de31';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='fffa52c22d797b715a962e6c8d11ec7d79b90dd819b5bc51d62137ea4b22a340';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     fileEncoding="$(echo 'System.out.println(System.getProperty("file.encoding"))' | jshell -s -)"; [ "$fileEncoding" = 'UTF-8' ]; rm -rf ~/.java;     echo "javac --version"; javac --version;     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:add0acaece43af9d6e2865d4d14fb43a443b1ef7b0dbd32bbbcd795a0220d6b5 done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/2qrozbrlwfnvrr6jdwhxkshcp
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 4.36kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:22.04
+#2 DONE 0.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 1.22kB done
+#5 DONE 0.0s
+
+#6 [2/5] RUN set -eux;     apt-get update;     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends         curl         wget         fontconfig         ca-certificates p11-kit         tzdata         locales     ;     echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen;     locale-gen en_US.UTF-8;     rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN set -eux;     ARCH="$(dpkg --print-architecture)";     case "${ARCH}" in        aarch64|arm64)          ESUM='c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz';          ;;        amd64|i386:x86-64)          ESUM='f1af100c4afca2035f446967323230150cfe5872b5a664d98c86963e5c066e0d';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.3_9.tar.gz';          ;;        ppc64el|powerpc:common64)          ESUM='aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz';          ;;        s390x|s390:64-bit)          ESUM='a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737';          BINARY_URL='https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz';          ;;        *)          echo "Unsupported arch: ${ARCH}";          exit 1;          ;;     esac;     wget --progress=dot:giga -O /tmp/openjdk.tar.gz ${BINARY_URL};     echo "${ESUM} */tmp/openjdk.tar.gz" | sha256sum -c -;     mkdir -p "/opt/java/openjdk";     tar --extract         --file /tmp/openjdk.tar.gz         --directory "/opt/java/openjdk"         --strip-components 1         --no-same-owner     ;     rm -f /tmp/openjdk.tar.gz /opt/java/openjdk/lib/src.zip;     find "/opt/java/openjdk/lib" -name '*.so' -exec dirname '{}' ';' | sort -u > /etc/ld.so.conf.d/docker-openjdk.conf;     ldconfig;     java -Xshare:dump;
+#7 CACHED
+
+#8 [4/5] RUN set -eux;     echo "Verifying install ...";     echo "java --version"; java --version;     echo "Complete."
+#8 CACHED
+
+#9 [5/5] COPY entrypoint.sh /__cacert_entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:77f0ec8580bed728c04adf0f695fb78a8755ffa774b9056ef5aaf14cf8b44c4f done
+#10 naming to docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy done
+#10 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/ajurgk70iben3u779d81oexud
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+ app Pulling 
+ app Warning 
+ Network web-service_default  Creating
+ Network web-service_default  Error
+ Container rsl-learning-platform-db  Creating
+Error response from daemon: Conflict. The container name "/rsl-learning-platform-db" is already in use by container "952a5d8009ff72f2b387030abd6dc4e56f11d8106362a95def086eb99d76d31b". You have to remove (or rename) that container to be able to reuse that name.
+./config/webhookWebservice.sh: line 23: -d: command not found
+
+/website_webhook
+stdout: website
+website
+Untagged: myreactapp:latest
+Deleted: sha256:b194e422498177f4cf4309f272b7bb56411cf00787ee1d50af0838ca93dca744
+b9b9840ff3ababc19afdb929e4d5dae85b6e53d3a96de91ef7c84534e6180e07
+
+stderr: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 587B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:20.13-alpine
+#2 DONE 3.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 94B done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/node:20.13-alpine@sha256:a7b980c958bfe4d84ee9263badd95a40c8bb50ad5afdb87902c187fefaef0e24
+#4 resolve docker.io/library/node:20.13-alpine@sha256:a7b980c958bfe4d84ee9263badd95a40c8bb50ad5afdb87902c187fefaef0e24 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 17.18kB 0.0s done
+#5 DONE 0.0s
+
+#6 [2/7] WORKDIR /app
+#6 CACHED
+
+#7 [3/7] COPY package*.json ./
+#7 CACHED
+
+#8 [4/7] RUN npm install
+#8 CACHED
+
+#9 [5/7] COPY . .
+#9 DONE 0.0s
+
+#10 [6/7] RUN npm run build
+#10 0.213 
+#10 0.213 > rsl@0.0.0 build
+#10 0.213 > tsc && vite build
+#10 0.213 
+#10 3.368 vite v5.0.10 building for production...
+#10 3.387 transforming...
+#10 10.39 ✓ 11961 modules transformed.
+#10 10.63 rendering chunks...
+#10 10.63 computing gzip size...
+#10 10.65 dist/index.html                                             0.46 kB │ gzip:   0.30 kB
+#10 10.65 dist/assets/inter-vietnamese-400-normal-p7dDeVZr.woff2      4.74 kB
+#10 10.65 dist/assets/inter-greek-ext-400-normal-iHZa-WCv.woff2       5.42 kB
+#10 10.65 dist/assets/inter-vietnamese-400-normal-yDhnxiy6.woff       6.59 kB
+#10 10.65 dist/assets/inter-cyrillic-400-normal-3-nJGiym.woff2        6.75 kB
+#10 10.65 dist/assets/inter-greek-ext-400-normal-P0a9vVxN.woff        7.36 kB
+#10 10.65 dist/assets/inter-greek-400-normal-0F8q5qMq.woff2           8.41 kB
+#10 10.65 dist/assets/inter-cyrillic-400-normal-Ca0v-Mpr.woff         9.05 kB
+#10 10.65 dist/assets/inter-cyrillic-ext-400-normal-LcnzGR0M.woff2    9.98 kB
+#10 10.65 dist/assets/inter-greek-400-normal-7yDxw0Ox.woff           11.01 kB
+#10 10.65 dist/assets/inter-cyrillic-ext-400-normal-sxuyq987.woff    14.18 kB
+#10 10.65 dist/assets/inter-latin-400-normal-U9R_j0_y.woff2          21.56 kB
+#10 10.65 dist/assets/inter-latin-400-normal-nYvLeTLv.woff           28.98 kB
+#10 10.65 dist/assets/inter-latin-ext-400-normal-91vjqTvm.woff2      29.27 kB
+#10 10.65 dist/assets/inter-latin-ext-400-normal-PLSM5vss.woff       42.11 kB
+#10 10.65 dist/assets/1-pMYDeG97.webp                               132.56 kB
+#10 10.65 dist/assets/4-Cm2bxL5O.webp                               196.61 kB
+#10 10.65 dist/assets/3-gU3zbbcx.webp                               217.25 kB
+#10 10.65 dist/assets/2-LhinJgnr.webp                               329.27 kB
+#10 10.65 dist/assets/index-Twi9C9zP.css                              9.27 kB │ gzip:   2.86 kB
+#10 10.65 dist/assets/index-UE1WHKkc.js                             556.86 kB │ gzip: 176.88 kB
+#10 10.65 
+#10 10.65 (!) Some chunks are larger than 500 kB after minification. Consider:
+#10 10.65 - Using dynamic import() to code-split the application
+#10 10.65 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+#10 10.65 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+#10 10.65 ✓ built in 7.28s
+#10 DONE 10.7s
+
+#11 [7/7] RUN npm install -g serve
+#11 4.604 
+#11 4.604 added 89 packages in 4s
+#11 4.604 
+#11 4.604 24 packages are looking for funding
+#11 4.604   run `npm fund` for details
+#11 DONE 4.7s
+
+#12 exporting to image
+#12 exporting layers 0.1s done
+#12 writing image sha256:6e715c3626829e20e54c0ba32c6f24118405757aef4a0dd4416b796ec5860f4c
+#12 writing image sha256:6e715c3626829e20e54c0ba32c6f24118405757aef4a0dd4416b796ec5860f4c done
+#12 naming to docker.io/library/myreactapp done
+#12 DONE 0.1s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/pwyzpc1wacqlxpcvr5in1f3wb
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+Server is running on http://localhost:3010
+/healthcheck
+Server is running on http://localhost:3010
+/healthcheck
+/website_webhook
+/webservice_webhook
+stdout: No resource found to remove
+No resource found to remove
+01cf84c975e243b2dfa544cb470a0c1aa8fe2de58a630900ba0674951220374f
+
+stderr: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Error response from daemon: No such container: website
+Error response from daemon: No such image: myreactapp:latest
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 587B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:20.13-alpine
+#2 DONE 1.7s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 94B done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/node:20.13-alpine@sha256:a7b980c958bfe4d84ee9263badd95a40c8bb50ad5afdb87902c187fefaef0e24
+#4 resolve docker.io/library/node:20.13-alpine@sha256:a7b980c958bfe4d84ee9263badd95a40c8bb50ad5afdb87902c187fefaef0e24 done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 15.81kB 0.0s done
+#5 DONE 0.1s
+
+#6 [2/7] WORKDIR /app
+#6 CACHED
+
+#7 [4/7] RUN npm install
+#7 CACHED
+
+#8 [5/7] COPY . .
+#8 CACHED
+
+#9 [6/7] RUN npm run build
+#9 CACHED
+
+#10 [3/7] COPY package*.json ./
+#10 CACHED
+
+#11 [7/7] RUN npm install -g serve
+#11 CACHED
+
+#12 exporting to image
+#12 exporting layers done
+#12 writing image sha256:6e715c3626829e20e54c0ba32c6f24118405757aef4a0dd4416b796ec5860f4c done
+#12 naming to docker.io/library/myreactapp done
+#12 DONE 0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/fry8ph0zuzd2beq8dkfr6x8yq
+
+What's Next?
+  1. Sign in to your Docker account → docker login
+  2. View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+stdout: #0 building with "desktop-linux" instance using docker driver
+
+#1 [app internal] load build definition from Dockerfile
+#1 transferring dockerfile: 403B done
+#1 DONE 0.0s
+
+#2 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy
+#2 ...
+
+#3 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy
+#3 DONE 1.2s
+
+#2 [app internal] load metadata for docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy
+#2 DONE 1.2s
+
+#4 [app internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [app builder 1/7] FROM docker.io/library/eclipse-temurin:21.0.2_13-jdk-jammy@sha256:03d8df1b21de34fd980bd121631ca969b30ba65978d5f47f3797d6da8a3fd9fd
+#5 DONE 0.0s
+
+#6 [app final 1/3] FROM docker.io/library/eclipse-temurin:21.0.2_13-jre-jammy@sha256:603d23272e30bbefa9e7c436a7165c6303b9c67e27aae07472d8ddc748fe96a2
+#6 DONE 0.0s
+
+#7 [app internal] load build context
+#7 transferring context: 7.22kB 0.0s done
+#7 DONE 0.0s
+
+#8 [app builder 2/7] WORKDIR /opt/app
+#8 CACHED
+
+#9 [app builder 4/7] COPY mvnw pom.xml ./
+#9 CACHED
+
+#10 [app builder 3/7] COPY .mvn/ .mvn
+#10 CACHED
+
+#11 [app builder 5/7] RUN ./mvnw dependency:go-offline
+#11 CACHED
+
+#12 [app builder 6/7] COPY ./src ./src
+#12 DONE 0.0s
+
+#13 [app builder 7/7] RUN ./mvnw clean package -DskipTests
+#13 1.131 [INFO] Scanning for projects...
+#13 1.304 [INFO] 
+#13 1.304 [INFO] -----------------< com.example:rsl-learning-platform >------------------
+#13 1.304 [INFO] Building rsl-learning-platform 0.0.1-SNAPSHOT
+#13 1.304 [INFO]   from pom.xml
+#13 1.304 [INFO] --------------------------------[ jar ]---------------------------------
+#13 1.608 Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.pom
+#13 2.234 Progress (1): 1.4/19 kBProgress (1): 2.8/19 kBProgress (1): 4.1/19 kBProgress (1): 5.5/19 kBProgress (1): 6.9/19 kBProgress (1): 8.3/19 kBProgress (1): 9.7/19 kBProgress (1): 11/19 kB Progress (1): 12/19 kBProgress (1): 14/19 kBProgress (1): 15/19 kBProgress (1): 17/19 kBProgress (1): 18/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.pom (19 kB at 29 kB/s)
+#13 2.268 Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/logging-parent/1.0.1.Final/logging-parent-1.0.1.Final.pom
+#13 2.351 Progress (1): 1.4/6.0 kBProgress (1): 2.8/6.0 kBProgress (1): 4.1/6.0 kBProgress (1): 5.5/6.0 kBProgress (1): 6.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/logging-parent/1.0.1.Final/logging-parent-1.0.1.Final.pom (6.0 kB at 67 kB/s)
+#13 2.381 Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.pom
+#13 2.465 Progress (1): 1.4/16 kBProgress (1): 2.8/16 kBProgress (1): 4.1/16 kBProgress (1): 5.5/16 kBProgress (1): 6.9/16 kBProgress (1): 8.3/16 kBProgress (1): 9.7/16 kBProgress (1): 11/16 kB Progress (1): 12/16 kBProgress (1): 14/16 kBProgress (1): 15/16 kBProgress (1): 16/16 kBProgress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.pom (16 kB at 158 kB/s)
+#13 2.482 Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.6/byte-buddy-parent-1.14.6.pom
+#13 2.564 Progress (1): 1.4/58 kBProgress (1): 2.8/58 kBProgress (1): 4.1/58 kBProgress (1): 5.5/58 kBProgress (1): 6.9/58 kBProgress (1): 8.3/58 kBProgress (1): 9.7/58 kBProgress (1): 11/58 kB Progress (1): 12/58 kBProgress (1): 14/58 kBProgress (1): 15/58 kBProgress (1): 16/58 kBProgress (1): 32/58 kBProgress (1): 49/58 kBProgress (1): 58 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.6/byte-buddy-parent-1.14.6.pom (58 kB at 336 kB/s)
+#13 2.670 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.3/jaxb-runtime-4.0.3.pom
+#13 2.757 Progress (1): 10 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.3/jaxb-runtime-4.0.3.pom (10 kB at 116 kB/s)
+#13 2.763 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.3/jaxb-runtime-parent-4.0.3.pom
+#13 2.849 Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.3/jaxb-runtime-parent-4.0.3.pom (1.2 kB at 13 kB/s)
+#13 2.859 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.3/jaxb-parent-4.0.3.pom
+#13 2.961 Progress (1): 16/35 kBProgress (1): 33/35 kBProgress (1): 35 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.3/jaxb-parent-4.0.3.pom (35 kB at 134 kB/s)
+#13 3.129 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/4.0.3/jaxb-bom-ext-4.0.3.pom
+#13 3.224 Progress (1): 3.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/4.0.3/jaxb-bom-ext-4.0.3.pom (3.5 kB at 33 kB/s)
+#13 3.242 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.3/jaxb-core-4.0.3.pom
+#13 3.332 Progress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.3/jaxb-core-4.0.3.pom (3.7 kB at 42 kB/s)
+#13 3.356 Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.pom
+#13 3.454 Progress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.pom (4.0 kB at 43 kB/s)
+#13 3.459 Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation-project/2.0.1/angus-activation-project-2.0.1.pom
+#13 3.557 Progress (1): 16/20 kBProgress (1): 20 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation-project/2.0.1/angus-activation-project-2.0.1.pom (20 kB at 192 kB/s)
+#13 3.579 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.3/txw2-4.0.3.pom
+#13 3.680 Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.3/txw2-4.0.3.pom (1.8 kB at 18 kB/s)
+#13 3.696 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.3/jaxb-txw-parent-4.0.3.pom
+#13 3.788 Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.3/jaxb-txw-parent-4.0.3.pom (1.2 kB at 13 kB/s)
+#13 3.806 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.pom
+#13 3.899 Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.pom (1.6 kB at 17 kB/s)
+#13 3.914 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.1.2/istack-commons-4.1.2.pom
+#13 4.015 Progress (1): 16/26 kBProgress (1): 26 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.1.2/istack-commons-4.1.2.pom (26 kB at 229 kB/s)
+#13 4.077 Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.pom
+#13 4.162 Progress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.pom (3.9 kB at 45 kB/s)
+#13 4.167 Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.pom
+#13 4.255 Progress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.pom (3.4 kB at 38 kB/s)
+#13 4.398 Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.pom
+#13 4.489 Progress (1): 10 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.pom (10 kB at 113 kB/s)
+#13 4.529 Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar
+#13 4.675 Progress (1): 16/59 kBProgress (1): 32/59 kBProgress (1): 49/59 kBProgress (1): 59 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar (59 kB at 220 kB/s)
+#13 4.800 Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.jar
+#13 4.801 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.3/jaxb-runtime-4.0.3.jar
+#13 4.801 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.3/jaxb-core-4.0.3.jar
+#13 4.802 Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar
+#13 4.803 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.3/txw2-4.0.3.jar
+#13 4.918 Progress (1): 0/4.2 MBProgress (1): 0/4.2 MBProgress (1): 0/4.2 MBProgress (1): 0.1/4.2 MBProgress (1): 0.1/4.2 MBProgress (2): 0.1/4.2 MB | 16/139 kBProgress (3): 0.1/4.2 MB | 16/139 kB | 1.4/73 kBProgress (3): 0.1/4.2 MB | 16/139 kB | 2.8/73 kBProgress (3): 0.1/4.2 MB | 16/139 kB | 4.1/73 kBProgress (3): 0.1/4.2 MB | 16/139 kB | 5.5/73 kBProgress (3): 0.1/4.2 MB | 16/139 kB | 6.9/73 kBProgress (3): 0.1/4.2 MB | 16/139 kB | 8.3/73 kBProgress (3): 0.1/4.2 MB | 16/139 kB | 8.3/73 kBProgress (3): 0.1/4.2 MB | 33/139 kB | 8.3/73 kBProgress (3): 0.1/4.2 MB | 33/139 kB | 9.7/73 kBProgress (3): 0.1/4.2 MB | 33/139 kB | 11/73 kB Progress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 1.4/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 2.8/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 4.1/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 5.5/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 6.9/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 8.3/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 9.7/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 11/27 kB Progress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 12/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 14/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 15/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 17/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 18/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 19/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 21/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 22/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 23/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 25/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 26/27 kBProgress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 27 kB   Progress (4): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 27 kBProgress (5): 0.1/4.2 MB | 33/139 kB | 11/73 kB | 27 kB | 16/920 kB                                                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar (27 kB at 98 kB/s)
+#13 5.078 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar
+#13 5.092 Progress (4): 0.1/4.2 MB | 49/139 kB | 11/73 kB | 16/920 kBProgress (4): 0.1/4.2 MB | 49/139 kB | 11/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 49/139 kB | 11/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 66/139 kB | 11/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 11/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 12/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 14/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 15/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 16/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 18/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 19/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 21/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 22/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 23/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 25/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 26/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 27/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 82/139 kB | 29/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 29/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 30/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 32/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 33/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 34/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 36/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 37/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 38/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 40/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 41/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 43/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 44/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 45/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 47/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 48/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 49/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 98/139 kB | 66/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 115/139 kB | 66/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 115/139 kB | 66/73 kB | 33/920 kBProgress (4): 0.1/4.2 MB | 115/139 kB | 73 kB | 33/920 kB                                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.3/txw2-4.0.3.jar (73 kB at 222 kB/s)
+#13 5.132 Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar
+#13 5.145 Progress (3): 0.2/4.2 MB | 115/139 kB | 33/920 kBProgress (3): 0.2/4.2 MB | 131/139 kB | 33/920 kBProgress (3): 0.2/4.2 MB | 131/139 kB | 49/920 kBProgress (4): 0.2/4.2 MB | 131/139 kB | 49/920 kB | 1.4/26 kBProgress (4): 0.2/4.2 MB | 131/139 kB | 49/920 kB | 2.8/26 kBProgress (4): 0.2/4.2 MB | 139 kB | 49/920 kB | 2.8/26 kB    Progress (4): 0.2/4.2 MB | 139 kB | 49/920 kB | 4.1/26 kBProgress (4): 0.2/4.2 MB | 139 kB | 49/920 kB | 5.5/26 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.3/jaxb-core-4.0.3.jar (139 kB at 382 kB/s)
+#13 5.164 Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar
+#13 5.164 Progress (3): 0.2/4.2 MB | 49/920 kB | 6.9/26 kBProgress (3): 0.2/4.2 MB | 49/920 kB | 8.3/26 kBProgress (3): 0.2/4.2 MB | 49/920 kB | 9.7/26 kBProgress (3): 0.2/4.2 MB | 49/920 kB | 11/26 kB Progress (3): 0.2/4.2 MB | 49/920 kB | 12/26 kBProgress (3): 0.2/4.2 MB | 49/920 kB | 14/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 14/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 15/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 17/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 18/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 19/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 19/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 21/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 22/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 23/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 25/26 kBProgress (3): 0.2/4.2 MB | 66/920 kB | 26 kB                                               Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar (26 kB at 69 kB/s)
+#13 5.177 Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.jar
+#13 5.178 Progress (2): 0.2/4.2 MB | 82/920 kBProgress (2): 0.2/4.2 MB | 98/920 kBProgress (3): 0.2/4.2 MB | 98/920 kB | 16/71 kBProgress (4): 0.2/4.2 MB | 98/920 kB | 16/71 kB | 16/47 kBProgress (4): 0.2/4.2 MB | 98/920 kB | 16/71 kB | 33/47 kBProgress (4): 0.2/4.2 MB | 98/920 kB | 33/71 kB | 33/47 kBProgress (5): 0.2/4.2 MB | 98/920 kB | 33/71 kB | 33/47 kB | 16/257 kBProgress (5): 0.2/4.2 MB | 98/920 kB | 49/71 kB | 33/47 kB | 16/257 kBProgress (5): 0.2/4.2 MB | 115/920 kB | 49/71 kB | 33/47 kB | 16/257 kBProgress (5): 0.2/4.2 MB | 115/920 kB | 49/71 kB | 33/47 kB | 33/257 kBProgress (5): 0.2/4.2 MB | 115/920 kB | 49/71 kB | 33/47 kB | 33/257 kBProgress (5): 0.2/4.2 MB | 115/920 kB | 49/71 kB | 33/47 kB | 33/257 kBProgress (5): 0.2/4.2 MB | 115/920 kB | 49/71 kB | 33/47 kB | 49/257 kBProgress (5): 0.2/4.2 MB | 115/920 kB | 66/71 kB | 33/47 kB | 49/257 kBProgress (5): 0.2/4.2 MB | 115/920 kB | 71 kB | 33/47 kB | 49/257 kB                                                                       Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar (71 kB at 139 kB/s)
+#13 5.322 Progress (4): 0.2/4.2 MB | 131/920 kB | 33/47 kB | 49/257 kBProgress (4): 0.2/4.2 MB | 147/920 kB | 33/47 kB | 49/257 kBProgress (4): 0.2/4.2 MB | 147/920 kB | 33/47 kB | 49/257 kBProgress (4): 0.2/4.2 MB | 147/920 kB | 33/47 kB | 49/257 kBProgress (4): 0.3/4.2 MB | 147/920 kB | 33/47 kB | 49/257 kBProgress (4): 0.3/4.2 MB | 164/920 kB | 33/47 kB | 49/257 kBProgress (4): 0.3/4.2 MB | 164/920 kB | 33/47 kB | 66/257 kBProgress (4): 0.3/4.2 MB | 180/920 kB | 33/47 kB | 66/257 kBProgress (4): 0.3/4.2 MB | 197/920 kB | 33/47 kB | 66/257 kBProgress (4): 0.3/4.2 MB | 197/920 kB | 33/47 kB | 82/257 kBProgress (4): 0.3/4.2 MB | 213/920 kB | 33/47 kB | 82/257 kBProgress (4): 0.3/4.2 MB | 229/920 kB | 33/47 kB | 82/257 kBProgress (4): 0.3/4.2 MB | 246/920 kB | 33/47 kB | 82/257 kBProgress (4): 0.3/4.2 MB | 256/920 kB | 33/47 kB | 82/257 kBProgress (4): 0.3/4.2 MB | 272/920 kB | 33/47 kB | 82/257 kBProgress (4): 0.3/4.2 MB | 289/920 kB | 33/47 kB | 82/257 kBProgress (4): 0.3/4.2 MB | 289/920 kB | 33/47 kB | 98/257 kBProgress (4): 0.3/4.2 MB | 289/920 kB | 33/47 kB | 115/257 kBProgress (4): 0.3/4.2 MB | 305/920 kB | 33/47 kB | 115/257 kBProgress (4): 0.3/4.2 MB | 305/920 kB | 33/47 kB | 131/257 kBProgress (4): 0.3/4.2 MB | 305/920 kB | 33/47 kB | 147/257 kBProgress (4): 0.3/4.2 MB | 305/920 kB | 33/47 kB | 164/257 kBProgress (4): 0.3/4.2 MB | 305/920 kB | 33/47 kB | 180/257 kBProgress (4): 0.3/4.2 MB | 305/920 kB | 33/47 kB | 197/257 kBProgress (4): 0.3/4.2 MB | 321/920 kB | 33/47 kB | 197/257 kBProgress (4): 0.3/4.2 MB | 321/920 kB | 33/47 kB | 197/257 kBProgress (4): 0.3/4.2 MB | 338/920 kB | 33/47 kB | 197/257 kBProgress (4): 0.3/4.2 MB | 338/920 kB | 33/47 kB | 213/257 kBProgress (4): 0.3/4.2 MB | 338/920 kB | 33/47 kB | 213/257 kBProgress (4): 0.3/4.2 MB | 354/920 kB | 33/47 kB | 213/257 kBProgress (4): 0.3/4.2 MB | 354/920 kB | 33/47 kB | 229/257 kBProgress (4): 0.3/4.2 MB | 370/920 kB | 33/47 kB | 229/257 kBProgress (4): 0.3/4.2 MB | 387/920 kB | 33/47 kB | 229/257 kBProgress (4): 0.3/4.2 MB | 387/920 kB | 33/47 kB | 246/257 kBProgress (4): 0.3/4.2 MB | 403/920 kB | 33/47 kB | 246/257 kBProgress (4): 0.3/4.2 MB | 403/920 kB | 33/47 kB | 257 kB                                                             Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.jar (257 kB at 346 kB/s)
+#13 5.557 Progress (3): 0.3/4.2 MB | 403/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 420/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 436/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 452/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 469/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 469/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 485/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 502/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 518/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 534/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 534/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 551/920 kB | 33/47 kBProgress (3): 0.3/4.2 MB | 567/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 567/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 583/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 583/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 600/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 616/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 633/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 633/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 633/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 649/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 665/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 665/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 682/920 kB | 33/47 kBProgress (3): 0.4/4.2 MB | 682/920 kB | 47 kB                                                Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar (47 kB at 44 kB/s)
+#13 5.895 Progress (2): 0.4/4.2 MB | 682/920 kBProgress (2): 0.4/4.2 MB | 698/920 kBProgress (2): 0.4/4.2 MB | 715/920 kBProgress (2): 0.4/4.2 MB | 731/920 kBProgress (2): 0.5/4.2 MB | 731/920 kBProgress (2): 0.5/4.2 MB | 731/920 kBProgress (2): 0.5/4.2 MB | 731/920 kBProgress (2): 0.5/4.2 MB | 747/920 kBProgress (2): 0.5/4.2 MB | 764/920 kBProgress (2): 0.5/4.2 MB | 764/920 kBProgress (2): 0.5/4.2 MB | 780/920 kBProgress (2): 0.5/4.2 MB | 796/920 kBProgress (2): 0.5/4.2 MB | 813/920 kBProgress (2): 0.5/4.2 MB | 829/920 kBProgress (2): 0.5/4.2 MB | 841/920 kBProgress (2): 0.5/4.2 MB | 841/920 kBProgress (2): 0.5/4.2 MB | 857/920 kBProgress (2): 0.5/4.2 MB | 873/920 kBProgress (2): 0.5/4.2 MB | 890/920 kBProgress (2): 0.5/4.2 MB | 890/920 kBProgress (2): 0.5/4.2 MB | 906/920 kBProgress (2): 0.5/4.2 MB | 920 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.3/jaxb-runtime-4.0.3.jar (920 kB at 536 kB/s)
+#13 6.531 Progress (1): 0.5/4.2 MBProgress (1): 0.6/4.2 MBProgress (1): 0.6/4.2 MBProgress (1): 0.6/4.2 MBProgress (1): 0.6/4.2 MBProgress (1): 0.6/4.2 MBProgress (1): 0.6/4.2 MBProgress (1): 0.7/4.2 MBProgress (1): 0.7/4.2 MBProgress (1): 0.7/4.2 MBProgress (1): 0.7/4.2 MBProgress (1): 0.7/4.2 MBProgress (1): 0.7/4.2 MBProgress (1): 0.8/4.2 MBProgress (1): 0.8/4.2 MBProgress (1): 0.8/4.2 MBProgress (1): 0.8/4.2 MBProgress (1): 0.8/4.2 MBProgress (1): 0.8/4.2 MBProgress (1): 0.9/4.2 MBProgress (1): 0.9/4.2 MBProgress (1): 0.9/4.2 MBProgress (1): 0.9/4.2 MBProgress (1): 0.9/4.2 MBProgress (1): 0.9/4.2 MBProgress (1): 1.0/4.2 MBProgress (1): 1.0/4.2 MBProgress (1): 1.0/4.2 MBProgress (1): 1.0/4.2 MBProgress (1): 1.0/4.2 MBProgress (1): 1.0/4.2 MBProgress (1): 1.1/4.2 MBProgress (1): 1.1/4.2 MBProgress (1): 1.1/4.2 MBProgress (1): 1.1/4.2 MBProgress (1): 1.1/4.2 MBProgress (1): 1.1/4.2 MBProgress (1): 1.2/4.2 MBProgress (1): 1.2/4.2 MBProgress (1): 1.2/4.2 MBProgress (1): 1.2/4.2 MBProgress (1): 1.2/4.2 MBProgress (1): 1.2/4.2 MBProgress (1): 1.2/4.2 MBProgress (1): 1.3/4.2 MBProgress (1): 1.3/4.2 MBProgress (1): 1.3/4.2 MBProgress (1): 1.3/4.2 MBProgress (1): 1.3/4.2 MBProgress (1): 1.3/4.2 MBProgress (1): 1.4/4.2 MBProgress (1): 1.4/4.2 MBProgress (1): 1.4/4.2 MBProgress (1): 1.4/4.2 MBProgress (1): 1.4/4.2 MBProgress (1): 1.4/4.2 MBProgress (1): 1.5/4.2 MBProgress (1): 1.5/4.2 MBProgress (1): 1.5/4.2 MBProgress (1): 1.5/4.2 MBProgress (1): 1.5/4.2 MBProgress (1): 1.5/4.2 MBProgress (1): 1.6/4.2 MBProgress (1): 1.6/4.2 MBProgress (1): 1.6/4.2 MBProgress (1): 1.6/4.2 MBProgress (1): 1.6/4.2 MBProgress (1): 1.6/4.2 MBProgress (1): 1.7/4.2 MBProgress (1): 1.7/4.2 MBProgress (1): 1.7/4.2 MBProgress (1): 1.7/4.2 MBProgress (1): 1.7/4.2 MBProgress (1): 1.7/4.2 MBProgress (1): 1.8/4.2 MBProgress (1): 1.8/4.2 MBProgress (1): 1.8/4.2 MBProgress (1): 1.8/4.2 MBProgress (1): 1.8/4.2 MBProgress (1): 1.8/4.2 MBProgress (1): 1.8/4.2 MBProgress (1): 1.9/4.2 MBProgress (1): 1.9/4.2 MBProgress (1): 1.9/4.2 MBProgress (1): 1.9/4.2 MBProgress (1): 1.9/4.2 MBProgress (1): 1.9/4.2 MBProgress (1): 2.0/4.2 MBProgress (1): 2.0/4.2 MBProgress (1): 2.0/4.2 MBProgress (1): 2.0/4.2 MBProgress (1): 2.0/4.2 MBProgress (1): 2.0/4.2 MBProgress (1): 2.1/4.2 MBProgress (1): 2.1/4.2 MBProgress (1): 2.1/4.2 MBProgress (1): 2.1/4.2 MBProgress (1): 2.1/4.2 MBProgress (1): 2.1/4.2 MBProgress (1): 2.2/4.2 MBProgress (1): 2.2/4.2 MBProgress (1): 2.2/4.2 MBProgress (1): 2.2/4.2 MBProgress (1): 2.2/4.2 MBProgress (1): 2.2/4.2 MBProgress (1): 2.3/4.2 MBProgress (1): 2.3/4.2 MBProgress (1): 2.3/4.2 MBProgress (1): 2.3/4.2 MBProgress (1): 2.3/4.2 MBProgress (1): 2.3/4.2 MBProgress (1): 2.4/4.2 MBProgress (1): 2.4/4.2 MBProgress (1): 2.4/4.2 MBProgress (1): 2.4/4.2 MBProgress (1): 2.4/4.2 MBProgress (1): 2.4/4.2 MBProgress (1): 2.5/4.2 MBProgress (1): 2.5/4.2 MBProgress (1): 2.5/4.2 MBProgress (1): 2.5/4.2 MBProgress (1): 2.5/4.2 MBProgress (1): 2.5/4.2 MBProgress (1): 2.5/4.2 MBProgress (1): 2.6/4.2 MBProgress (1): 2.6/4.2 MBProgress (1): 2.6/4.2 MBProgress (1): 2.6/4.2 MBProgress (1): 2.6/4.2 MBProgress (1): 2.6/4.2 MBProgress (1): 2.7/4.2 MBProgress (1): 2.7/4.2 MBProgress (1): 2.7/4.2 MBProgress (1): 2.7/4.2 MBProgress (1): 2.7/4.2 MBProgress (1): 2.7/4.2 MBProgress (1): 2.8/4.2 MBProgress (1): 2.8/4.2 MBProgress (1): 2.8/4.2 MBProgress (1): 2.8/4.2 MBProgress (1): 2.8/4.2 MBProgress (1): 2.8/4.2 MBProgress (1): 2.9/4.2 MBProgress (1): 2.9/4.2 MBProgress (1): 2.9/4.2 MBProgress (1): 2.9/4.2 MBProgress (1): 2.9/4.2 MBProgress (1): 2.9/4.2 MBProgress (1): 3.0/4.2 MBProgress (1): 3.0/4.2 MBProgress (1): 3.0/4.2 MBProgress (1): 3.0/4.2 MBProgress (1): 3.0/4.2 MBProgress (1): 3.0/4.2 MBProgress (1): 3.1/4.2 MBProgress (1): 3.1/4.2 MBProgress (1): 3.1/4.2 MBProgress (1): 3.1/4.2 MBProgress (1): 3.1/4.2 MBProgress (1): 3.1/4.2 MBProgress (1): 3.2/4.2 MBProgress (1): 3.2/4.2 MBProgress (1): 3.2/4.2 MBProgress (1): 3.2/4.2 MBProgress (1): 3.2/4.2 MBProgress (1): 3.2/4.2 MBProgress (1): 3.2/4.2 MBProgress (1): 3.3/4.2 MBProgress (1): 3.3/4.2 MBProgress (1): 3.3/4.2 MBProgress (1): 3.3/4.2 MBProgress (1): 3.3/4.2 MBProgress (1): 3.3/4.2 MBProgress (1): 3.4/4.2 MBProgress (1): 3.4/4.2 MBProgress (1): 3.4/4.2 MBProgress (1): 3.4/4.2 MBProgress (1): 3.4/4.2 MBProgress (1): 3.4/4.2 MBProgress (1): 3.5/4.2 MBProgress (1): 3.5/4.2 MBProgress (1): 3.5/4.2 MBProgress (1): 3.5/4.2 MBProgress (1): 3.5/4.2 MBProgress (1): 3.5/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.2/4.2 MBProgress (1): 4.2/4.2 MBProgress (1): 4.2/4.2 MBProgress (1): 4.2/4.2 MBProgress (1): 4.2 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.jar (4.2 MB at 324 kB/s)
+#13 17.80 [INFO] 
+#13 17.80 [INFO] --- clean:3.2.0:clean (default-clean) @ rsl-learning-platform ---
+#13 17.87 [INFO] 
+#13 17.87 [INFO] --- resources:3.3.1:resources (default-resources) @ rsl-learning-platform ---
+#13 17.92 [INFO] Copying 1 resource from src/main/resources to target/classes
+#13 17.93 [INFO] Copying 0 resource from src/main/resources to target/classes
+#13 17.93 [INFO] 
+#13 17.93 [INFO] --- compiler:3.11.0:compile (default-compile) @ rsl-learning-platform ---
+#13 18.01 [INFO] Changes detected - recompiling the module! :dependency
+#13 18.01 [INFO] Compiling 54 source files with javac [debug release 17] to target/classes
+#13 19.10 [INFO] 
+#13 19.10 [INFO] --- resources:3.3.1:testResources (default-testResources) @ rsl-learning-platform ---
+#13 19.10 [INFO] skip non existing resourceDirectory /opt/app/src/test/resources
+#13 19.10 [INFO] 
+#13 19.10 [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ rsl-learning-platform ---
+#13 19.10 [INFO] Changes detected - recompiling the module! :dependency
+#13 19.10 [INFO] Compiling 7 source files with javac [debug release 17] to target/test-classes
+#13 19.48 [INFO] 
+#13 19.48 [INFO] --- surefire:3.0.0:test (default-test) @ rsl-learning-platform ---
+#13 19.59 [INFO] Tests are skipped.
+#13 19.59 [INFO] 
+#13 19.59 [INFO] --- jar:3.3.0:jar (default-jar) @ rsl-learning-platform ---
+#13 19.72 [INFO] Building jar: /opt/app/target/rsl-learning-platform-0.0.1-SNAPSHOT.jar
+#13 19.74 [INFO] 
+#13 19.74 [INFO] --- spring-boot:3.1.3:repackage (repackage) @ rsl-learning-platform ---
+#13 20.14 [INFO] Replacing main artifact /opt/app/target/rsl-learning-platform-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+#13 20.14 [INFO] The original artifact has been renamed to /opt/app/target/rsl-learning-platform-0.0.1-SNAPSHOT.jar.original
+#13 20.14 [INFO] ------------------------------------------------------------------------
+#13 20.14 [INFO] BUILD SUCCESS
+#13 20.14 [INFO] ------------------------------------------------------------------------
+#13 20.14 [INFO] Total time:  19.030 s
+#13 20.14 [INFO] Finished at: 2024-06-04T15:10:39Z
+#13 20.14 [INFO] ------------------------------------------------------------------------
+#13 DONE 20.2s
+
+#14 [app final 2/3] WORKDIR /opt/app
+#14 CACHED
+
+#15 [app final 3/3] COPY --from=builder /opt/app/target/*.jar /opt/app/*.jar
+#15 DONE 0.1s
+
+#16 [app] exporting to image
+#16 exporting layers 0.1s done
+#16 writing image sha256:d5de995c7628cad8060866301fe16b3010bc2905a774cbac43ce20a38f342590 done
+#16 naming to docker.io/library/rsl-learning-platform:latest
+#16 naming to docker.io/library/rsl-learning-platform:latest done
+#16 DONE 0.1s
+
+stderr: git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Warning: No resource found to remove for project "web-service".
+Error response from daemon: No such image: rsl-learning-platform:latest
  app Pulling 
  db Pulling 
  bca4290a9639 Already exists 
@@ -765,78 +2690,131 @@ What's Next?
  00e4f47ec03c Waiting 
  b14fb22ba4ce Waiting 
  0279729c0a37 Waiting 
- 73755f5e6a3e Downloading [======================>                            ]     566B/1.263kB
+ 73755f5e6a3e Downloading [======================>                            ]     564B/1.263kB
  73755f5e6a3e Downloading [==================================================>]  1.263kB/1.263kB
  73755f5e6a3e Verifying Checksum 
  73755f5e6a3e Download complete 
  73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
- 73755f5e6a3e Extracting [==================================================>]  1.263kB/1.263kB
  73755f5e6a3e Pull complete 
+ ac5976ae9a0f Downloading [>                                                  ]  531.7kB/88.1MB
  3a60b4a71875 Downloading [==================================================>]     116B/116B
  3a60b4a71875 Verifying Checksum 
- 3a60b4a71875 Download complete 
  3a60b4a71875 Extracting [==================================================>]     116B/116B
  3a60b4a71875 Extracting [==================================================>]     116B/116B
  3a60b4a71875 Pull complete 
- ac5976ae9a0f Downloading [>                                                  ]  532.5kB/88.1MB
- ac5976ae9a0f Downloading [=>                                                 ]  2.154MB/88.1MB
- ac5976ae9a0f Downloading [===>                                               ]  5.389MB/88.1MB
- ac5976ae9a0f Downloading [===>                                               ]  6.994MB/88.1MB
- ac5976ae9a0f Downloading [=======>                                           ]  12.37MB/88.1MB
- ac5976ae9a0f Downloading [========>                                          ]  15.05MB/88.1MB
- ac5976ae9a0f Downloading [========>                                          ]  15.59MB/88.1MB
- ac5976ae9a0f Downloading [============>                                      ]  21.47MB/88.1MB
- 5f2cc6916eaf Verifying Checksum 
- 5f2cc6916eaf Download complete 
- ac5976ae9a0f Downloading [=============>                                     ]  23.07MB/88.1MB
- ac5976ae9a0f Downloading [================>                                  ]  28.46MB/88.1MB
- ac5976ae9a0f Downloading [=================>                                 ]  30.59MB/88.1MB
- 361be1980cf0 Downloading [===>                                               ]     572B/9.021kB
+ ac5976ae9a0f Downloading [>                                                  ]  1.072MB/88.1MB
+ ac5976ae9a0f Downloading [=>                                                 ]  2.682MB/88.1MB
+ ac5976ae9a0f Downloading [==>                                                ]  4.304MB/88.1MB
+ 361be1980cf0 Downloading [===>                                               ]     574B/9.021kB
  361be1980cf0 Downloading [==================================================>]  9.021kB/9.021kB
  361be1980cf0 Verifying Checksum 
  361be1980cf0 Download complete 
- ac5976ae9a0f Downloading [=================>                                 ]  31.13MB/88.1MB
- ac5976ae9a0f Downloading [=====================>                             ]  37.59MB/88.1MB
- ac5976ae9a0f Downloading [=====================>                             ]  38.67MB/88.1MB
- ac5976ae9a0f Downloading [=========================>                         ]  44.06MB/88.1MB
- ac5976ae9a0f Downloading [=========================>                         ]  45.68MB/88.1MB
- ac5976ae9a0f Downloading [=============================>                     ]   51.6MB/88.1MB
- ac5976ae9a0f Downloading [==============================>                    ]   54.3MB/88.1MB
- ac5976ae9a0f Downloading [==================================>                ]  60.21MB/88.1MB
- ac5976ae9a0f Downloading [===================================>               ]  61.82MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]  5.893MB/88.1MB
+ ac5976ae9a0f Downloading [===>                                               ]   6.43MB/88.1MB
+ 5f2cc6916eaf Downloading [==================================================>]     128B/128B
+ 5f2cc6916eaf Verifying Checksum 
+ 5f2cc6916eaf Download complete 
+ ac5976ae9a0f Downloading [===>                                               ]  6.971MB/88.1MB
+ ac5976ae9a0f Downloading [====>                                              ]  8.051MB/88.1MB
+ ac5976ae9a0f Downloading [=====>                                             ]  9.132MB/88.1MB
+ ac5976ae9a0f Downloading [======>                                            ]  11.28MB/88.1MB
+ ac5976ae9a0f Downloading [======>                                            ]  11.82MB/88.1MB
+ ac5976ae9a0f Downloading [=======>                                           ]  12.36MB/88.1MB
+ ac5976ae9a0f Downloading [========>                                          ]  14.52MB/88.1MB
+ 00e4f47ec03c Downloading [==================================================>]     169B/169B
+ 00e4f47ec03c Verifying Checksum 
  00e4f47ec03c Download complete 
- ac5976ae9a0f Downloading [=====================================>             ]  66.13MB/88.1MB
- b14fb22ba4ce Downloading [=====>                                             ]     570B/5.421kB
+ ac5976ae9a0f Downloading [=========>                                         ]  16.15MB/88.1MB
+ b14fb22ba4ce Downloading [=====>                                             ]     562B/5.421kB
+ ac5976ae9a0f Downloading [==========>                                        ]  17.76MB/88.1MB
  b14fb22ba4ce Downloading [==================================================>]  5.421kB/5.421kB
  b14fb22ba4ce Verifying Checksum 
  b14fb22ba4ce Download complete 
- ac5976ae9a0f Downloading [=======================================>           ]   69.9MB/88.1MB
- ac5976ae9a0f Downloading [===========================================>       ]  76.37MB/88.1MB
- ac5976ae9a0f Downloading [=============================================>     ]  80.15MB/88.1MB
- ac5976ae9a0f Downloading [==============================================>    ]  81.23MB/88.1MB
- ac5976ae9a0f Downloading [=================================================> ]  87.17MB/88.1MB
- ac5976ae9a0f Verifying Checksum 
- ac5976ae9a0f Download complete 
- ac5976ae9a0f Extracting [>                                                  ]  557.1kB/88.1MB
- ac5976ae9a0f Extracting [==>                                                ]  5.014MB/88.1MB
- ac5976ae9a0f Extracting [=========>                                         ]  17.27MB/88.1MB
- ac5976ae9a0f Extracting [================>                                  ]  29.52MB/88.1MB
- ac5976ae9a0f Extracting [=====================>                             ]  38.44MB/88.1MB
- ac5976ae9a0f Extracting [=========================>                         ]  45.68MB/88.1MB
+ ac5976ae9a0f Downloading [==========>                                        ]  18.84MB/88.1MB
+ ac5976ae9a0f Downloading [===========>                                       ]  19.93MB/88.1MB
+ ac5976ae9a0f Downloading [===========>                                       ]  21.01MB/88.1MB
+ ac5976ae9a0f Downloading [============>                                      ]  22.09MB/88.1MB
+ ac5976ae9a0f Downloading [=============>                                     ]  23.15MB/88.1MB
+ ac5976ae9a0f Downloading [==============>                                    ]  25.31MB/88.1MB
+ 0279729c0a37 Downloading [==================================================>]     185B/185B
  0279729c0a37 Verifying Checksum 
  0279729c0a37 Download complete 
- ac5976ae9a0f Extracting [===============================>                   ]  55.15MB/88.1MB
- ac5976ae9a0f Extracting [=================================>                 ]  58.49MB/88.1MB
- ac5976ae9a0f Extracting [=================================>                 ]   59.6MB/88.1MB
- ac5976ae9a0f Extracting [====================================>              ]  64.06MB/88.1MB
- ac5976ae9a0f Extracting [========================================>          ]  70.75MB/88.1MB
- ac5976ae9a0f Extracting [==========================================>        ]   75.2MB/88.1MB
- ac5976ae9a0f Extracting [=================================================> ]  86.34MB/88.1MB
+ ac5976ae9a0f Downloading [==============>                                    ]  26.39MB/88.1MB
+ ac5976ae9a0f Downloading [================>                                  ]  28.54MB/88.1MB
+ ac5976ae9a0f Downloading [=================>                                 ]  30.16MB/88.1MB
+ ac5976ae9a0f Downloading [=================>                                 ]  30.69MB/88.1MB
+ ac5976ae9a0f Downloading [==================>                                ]  32.32MB/88.1MB
+ ac5976ae9a0f Downloading [===================>                               ]  33.94MB/88.1MB
+ ac5976ae9a0f Downloading [===================>                               ]  34.48MB/88.1MB
+ ac5976ae9a0f Downloading [====================>                              ]  35.56MB/88.1MB
+ ac5976ae9a0f Downloading [=====================>                             ]  37.17MB/88.1MB
+ ac5976ae9a0f Downloading [======================>                            ]  38.78MB/88.1MB
+ ac5976ae9a0f Downloading [======================>                            ]  40.39MB/88.1MB
+ ac5976ae9a0f Downloading [=======================>                           ]  40.93MB/88.1MB
+ ac5976ae9a0f Downloading [=======================>                           ]  42.01MB/88.1MB
+ ac5976ae9a0f Downloading [========================>                          ]  43.08MB/88.1MB
+ ac5976ae9a0f Downloading [========================>                          ]  43.61MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  44.15MB/88.1MB
+ ac5976ae9a0f Downloading [=========================>                         ]  45.78MB/88.1MB
+ ac5976ae9a0f Downloading [==========================>                        ]  46.85MB/88.1MB
+ ac5976ae9a0f Downloading [===========================>                       ]  48.47MB/88.1MB
+ ac5976ae9a0f Downloading [============================>                      ]  49.55MB/88.1MB
+ ac5976ae9a0f Downloading [=============================>                     ]  51.16MB/88.1MB
+ ac5976ae9a0f Downloading [=============================>                     ]  52.78MB/88.1MB
+ ac5976ae9a0f Downloading [==============================>                    ]   54.4MB/88.1MB
+ ac5976ae9a0f Downloading [===============================>                   ]  54.94MB/88.1MB
+ ac5976ae9a0f Downloading [===============================>                   ]  56.02MB/88.1MB
+ ac5976ae9a0f Downloading [================================>                  ]  56.56MB/88.1MB
+ ac5976ae9a0f Downloading [================================>                  ]  57.65MB/88.1MB
+ ac5976ae9a0f Downloading [=================================>                 ]  58.72MB/88.1MB
+ ac5976ae9a0f Downloading [==================================>                ]  60.34MB/88.1MB
+ ac5976ae9a0f Downloading [==================================>                ]  61.41MB/88.1MB
+ ac5976ae9a0f Downloading [===================================>               ]  63.04MB/88.1MB
+ ac5976ae9a0f Downloading [====================================>              ]  63.58MB/88.1MB
+ ac5976ae9a0f Downloading [====================================>              ]  65.19MB/88.1MB
+ ac5976ae9a0f Downloading [=====================================>             ]  66.26MB/88.1MB
+ ac5976ae9a0f Downloading [======================================>            ]  67.35MB/88.1MB
+ ac5976ae9a0f Downloading [======================================>            ]  67.89MB/88.1MB
+ ac5976ae9a0f Downloading [=======================================>           ]  69.51MB/88.1MB
+ ac5976ae9a0f Downloading [=======================================>           ]  70.05MB/88.1MB
+ ac5976ae9a0f Downloading [========================================>          ]  70.59MB/88.1MB
+ ac5976ae9a0f Downloading [========================================>          ]  71.13MB/88.1MB
+ ac5976ae9a0f Downloading [========================================>          ]   72.2MB/88.1MB
+ ac5976ae9a0f Downloading [=========================================>         ]  72.74MB/88.1MB
+ ac5976ae9a0f Downloading [==========================================>        ]  74.36MB/88.1MB
+ ac5976ae9a0f Downloading [==========================================>        ]   74.9MB/88.1MB
+ ac5976ae9a0f Downloading [==========================================>        ]  75.44MB/88.1MB
+ ac5976ae9a0f Downloading [===========================================>       ]   76.5MB/88.1MB
+ ac5976ae9a0f Downloading [============================================>      ]  77.58MB/88.1MB
+ ac5976ae9a0f Downloading [============================================>      ]  78.65MB/88.1MB
+ ac5976ae9a0f Downloading [============================================>      ]  79.19MB/88.1MB
+ ac5976ae9a0f Downloading [=============================================>     ]  80.27MB/88.1MB
+ ac5976ae9a0f Downloading [==============================================>    ]  81.88MB/88.1MB
+ ac5976ae9a0f Downloading [===============================================>   ]  82.96MB/88.1MB
+ ac5976ae9a0f Downloading [===============================================>   ]   83.5MB/88.1MB
+ ac5976ae9a0f Downloading [================================================>  ]  84.58MB/88.1MB
+ ac5976ae9a0f Downloading [=================================================> ]  86.74MB/88.1MB
+ ac5976ae9a0f Downloading [=================================================> ]  87.28MB/88.1MB
+ ac5976ae9a0f Download complete 
+ ac5976ae9a0f Extracting [>                                                  ]  557.1kB/88.1MB
+ ac5976ae9a0f Extracting [=>                                                 ]  3.342MB/88.1MB
+ ac5976ae9a0f Extracting [========>                                          ]  15.04MB/88.1MB
+ ac5976ae9a0f Extracting [===============>                                   ]  26.74MB/88.1MB
+ ac5976ae9a0f Extracting [=====================>                             ]  37.32MB/88.1MB
+ ac5976ae9a0f Extracting [========================>                          ]  43.45MB/88.1MB
+ ac5976ae9a0f Extracting [=============================>                     ]  51.25MB/88.1MB
+ ac5976ae9a0f Extracting [================================>                  ]  57.93MB/88.1MB
+ ac5976ae9a0f Extracting [=================================>                 ]  59.05MB/88.1MB
+ ac5976ae9a0f Extracting [===================================>               ]  62.95MB/88.1MB
+ ac5976ae9a0f Extracting [======================================>            ]  68.52MB/88.1MB
+ ac5976ae9a0f Extracting [==========================================>        ]  74.09MB/88.1MB
+ ac5976ae9a0f Extracting [=============================================>     ]  79.66MB/88.1MB
  ac5976ae9a0f Extracting [==================================================>]   88.1MB/88.1MB
  ac5976ae9a0f Pull complete 
  361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
  361be1980cf0 Extracting [==================================================>]  9.021kB/9.021kB
  361be1980cf0 Pull complete 
+ 5f2cc6916eaf Extracting [==================================================>]     128B/128B
  5f2cc6916eaf Extracting [==================================================>]     128B/128B
  5f2cc6916eaf Pull complete 
  00e4f47ec03c Extracting [==================================================>]     169B/169B
